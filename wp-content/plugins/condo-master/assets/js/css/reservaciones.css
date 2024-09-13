@@ -1,0 +1,41 @@
+/* assets/css/reservaciones-style.css */
+
+/* Estilos para el formulario de reservas */
+#reservaciones-form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+#reservaciones-form label {
+    display: block; /* Mostrar etiquetas como bloque */
+    margin-bottom: 8px; /* Espacio debajo de las etiquetas */
+}
+
+#reservaciones-form input,
+#reservaciones-form textarea {
+    width: 100%; /* Ancho completo para inputs y textarea */
+    padding: 8px; /* Espaciado interno */
+    margin-bottom: 12px; /* Espacio debajo de los campos */
+    border: 1px solid #ccc; /* Borde de los campos */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+#reservaciones-form input[type="submit"] {
+    background-color: #0073aa; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cursor de mano */
+}
+
+#reservaciones-form input[type="submit"]:hover {
+    background-color: #005a87; /* Color de fondo al pasar el ratón */
+}
+
+#reservaciones-response {
+    margin-top: 20px; /* Espacio arriba de la respuesta */
+}

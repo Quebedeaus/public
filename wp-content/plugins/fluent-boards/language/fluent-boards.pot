@@ -1,0 +1,3168 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluent Boards\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-23 09:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1\n"
+"X-Domain: fluent-boards"
+
+#: app/Http/Controllers/OptionsController.php:856
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:856
+msgid "(no title)"
+msgstr ""
+
+#: app/Services/TransStrings.php:11
+#: builds/fluent-boards/app/Services/TransStrings.php:11
+msgid "* Denotes mandatory fields"
+msgstr ""
+
+#: app/Services/TransStrings.php:12
+#: builds/fluent-boards/app/Services/TransStrings.php:12
+msgid "** Invite a member to board via email"
+msgstr ""
+
+#: app/Services/TransStrings.php:13
+#: builds/fluent-boards/app/Services/TransStrings.php:13
+msgid "** Url required **"
+msgstr ""
+
+#: app/Services/TransStrings.php:14
+#: builds/fluent-boards/app/Services/TransStrings.php:14
+msgid "**email is required"
+msgstr ""
+
+#: app/Services/TransStrings.php:15
+#: builds/fluent-boards/app/Services/TransStrings.php:15
+msgid "*select boards can't be empty"
+msgstr ""
+
+#: app/Services/TransStrings.php:16
+#: builds/fluent-boards/app/Services/TransStrings.php:16
+msgid "*select users can't be empty"
+msgstr ""
+
+#: app/Services/TransStrings.php:17
+#: builds/fluent-boards/app/Services/TransStrings.php:17
+msgid "About this Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:369
+#: builds/fluent-boards/app/Services/TransStrings.php:369
+msgid "about this feature"
+msgstr ""
+
+#: app/Services/TransStrings.php:18
+#: builds/fluent-boards/app/Services/TransStrings.php:18
+msgid "Action"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:586
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:586
+msgid "Activate Fluent Forms"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:605
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:605
+msgid "Activate Fluent SMTP"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:596
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:596
+msgid "Activate Fluent Support"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:577
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:577
+msgid "Activate FluentCRM"
+msgstr ""
+
+#: app/Services/TransStrings.php:19
+#: builds/fluent-boards/app/Services/TransStrings.php:19
+msgid "Activities"
+msgstr ""
+
+#: app/Services/TransStrings.php:20
+#: builds/fluent-boards/app/Services/TransStrings.php:20
+msgid "Activity history"
+msgstr ""
+
+#: app/Services/TransStrings.php:431
+#: builds/fluent-boards/app/Services/TransStrings.php:431
+msgid "Add a more detailed description of the task here"
+msgstr ""
+
+#: app/Services/TransStrings.php:34
+#: builds/fluent-boards/app/Services/TransStrings.php:34
+msgid "Add a Task to Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:21
+#: builds/fluent-boards/app/Services/TransStrings.php:21
+msgid "Add Attachment"
+msgstr ""
+
+#: app/Services/TransStrings.php:22
+#: builds/fluent-boards/app/Services/TransStrings.php:22
+msgid "Add Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:23
+#: builds/fluent-boards/app/Services/TransStrings.php:23
+msgid "Add Contact"
+msgstr ""
+
+#: app/Services/TransStrings.php:24
+#: builds/fluent-boards/app/Services/TransStrings.php:24
+msgid "Add First Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:35
+#: builds/fluent-boards/app/Services/TransStrings.php:35
+msgid "Add from Modal"
+msgstr ""
+
+#: app/Services/TransStrings.php:36
+#: builds/fluent-boards/app/Services/TransStrings.php:36
+msgid "Add label"
+msgstr ""
+
+#: app/Services/TransStrings.php:37
+#: builds/fluent-boards/app/Services/TransStrings.php:37
+msgid "Add link"
+msgstr ""
+
+#: app/Services/TransStrings.php:25
+#: builds/fluent-boards/app/Services/TransStrings.php:25
+msgid "Add Member"
+msgstr ""
+
+#: app/Services/TransStrings.php:38
+#: builds/fluent-boards/app/Services/TransStrings.php:38
+msgid "Add member"
+msgstr ""
+
+#: app/Services/TransStrings.php:26
+#: builds/fluent-boards/app/Services/TransStrings.php:26
+msgid "Add New Label"
+msgstr ""
+
+#: app/Services/TransStrings.php:39
+#: builds/fluent-boards/app/Services/TransStrings.php:39
+msgid "Add new Member"
+msgstr ""
+
+#: app/Services/TransStrings.php:27
+#: builds/fluent-boards/app/Services/TransStrings.php:27
+msgid "Add New Stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:28
+#: builds/fluent-boards/app/Services/TransStrings.php:28
+msgid "Add Priority"
+msgstr ""
+
+#: app/Services/TransStrings.php:29
+#: builds/fluent-boards/app/Services/TransStrings.php:29
+msgid "Add ShortCodes"
+msgstr ""
+
+#: app/Services/TransStrings.php:30
+#: builds/fluent-boards/app/Services/TransStrings.php:30
+msgid "Add Stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:31
+#: builds/fluent-boards/app/Services/TransStrings.php:31
+msgid "Add Subtask"
+msgstr ""
+
+#: app/Services/TransStrings.php:32
+#: builds/fluent-boards/app/Services/TransStrings.php:32
+msgid "Add Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:40
+#: builds/fluent-boards/app/Services/TransStrings.php:40
+msgid "Add to Boards"
+msgstr ""
+
+#: app/Services/TransStrings.php:33
+#: builds/fluent-boards/app/Services/TransStrings.php:33
+msgid "Add To Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:399
+#: builds/fluent-boards/app/Services/TransStrings.php:399
+msgid "added a new comment"
+msgstr ""
+
+#: app/Services/TransStrings.php:41
+#: builds/fluent-boards/app/Services/TransStrings.php:41
+msgid "Admin"
+msgstr ""
+
+#: app/Services/TransStrings.php:42
+#: builds/fluent-boards/app/Services/TransStrings.php:42
+msgid "Advanced Modules"
+msgstr ""
+
+#: app/Services/TransStrings.php:43
+#: builds/fluent-boards/app/Services/TransStrings.php:43
+msgid "After 1 Hour"
+msgstr ""
+
+#: app/Services/TransStrings.php:44
+#: builds/fluent-boards/app/Services/TransStrings.php:44
+msgid "After 1 Month"
+msgstr ""
+
+#: app/Services/TransStrings.php:45
+#: builds/fluent-boards/app/Services/TransStrings.php:45
+msgid "After 1 Week"
+msgstr ""
+
+#: app/Services/TransStrings.php:46
+#: builds/fluent-boards/app/Services/TransStrings.php:46
+msgid "After 2 Days"
+msgstr ""
+
+#: app/Services/TransStrings.php:47
+#: builds/fluent-boards/app/Services/TransStrings.php:47
+msgid "All"
+msgstr ""
+
+#: app/Services/TransStrings.php:48
+#: builds/fluent-boards/app/Services/TransStrings.php:48
+msgid "All Access"
+msgstr ""
+
+#: app/Services/TransStrings.php:49
+#: builds/fluent-boards/app/Services/TransStrings.php:49
+msgid "All Boards"
+msgstr ""
+
+#: app/Services/TransStrings.php:50
+#: builds/fluent-boards/app/Services/TransStrings.php:50
+msgid "All Members:"
+msgstr ""
+
+#: app/Models/Task.php:673 builds/fluent-boards/app/Models/Task.php:673
+msgid "An array of label IDs or titles. Example: [1, \"feature\", 44]"
+msgstr ""
+
+#: app/Models/Task.php:679 builds/fluent-boards/app/Models/Task.php:679
+msgid "An array of WP User IDs. Example: [1,2,44]"
+msgstr ""
+
+#: app/Services/TransStrings.php:398
+#: builds/fluent-boards/app/Services/TransStrings.php:398
+msgid "An email will be sent to the user with an invitation link."
+msgstr ""
+
+#: app/Services/TransStrings.php:417
+#: builds/fluent-boards/app/Services/TransStrings.php:417
+msgid "Angle"
+msgstr ""
+
+#: app/Services/TransStrings.php:53
+#: builds/fluent-boards/app/Services/TransStrings.php:53
+msgid "Archive all tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:51
+#: builds/fluent-boards/app/Services/TransStrings.php:51
+msgid "Archive Stages"
+msgstr ""
+
+#: app/Services/TransStrings.php:52
+#: builds/fluent-boards/app/Services/TransStrings.php:52
+msgid "Archive Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:54
+#: builds/fluent-boards/app/Services/TransStrings.php:54
+msgid "Archive this Stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:55
+#: builds/fluent-boards/app/Services/TransStrings.php:55
+msgid "Archived"
+msgstr ""
+
+#: app/Services/TransStrings.php:406
+#: builds/fluent-boards/app/Services/TransStrings.php:406
+msgid "archived a task"
+msgstr ""
+
+#: app/Services/TransStrings.php:56
+#: builds/fluent-boards/app/Services/TransStrings.php:56
+msgid "Archived Tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:57
+#: builds/fluent-boards/app/Services/TransStrings.php:57
+msgid "Are you sure to delete this?"
+msgstr ""
+
+#: app/Services/TransStrings.php:58
+#: builds/fluent-boards/app/Services/TransStrings.php:58
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: app/Services/TransStrings.php:59
+#: builds/fluent-boards/app/Services/TransStrings.php:59
+msgid "Are you sure you want to remove someone from all board ?"
+msgstr ""
+
+#: app/Services/TransStrings.php:60
+#: builds/fluent-boards/app/Services/TransStrings.php:60
+msgid "Are you sure? You want to leave from"
+msgstr ""
+
+#: app/Services/TransStrings.php:61
+#: builds/fluent-boards/app/Services/TransStrings.php:61
+msgid "Are you sure? You want to remove"
+msgstr ""
+
+#: app/Services/TransStrings.php:62
+#: builds/fluent-boards/app/Services/TransStrings.php:62
+msgid "Assigned to a task"
+msgstr ""
+
+#: app/Services/TransStrings.php:63
+#: builds/fluent-boards/app/Services/TransStrings.php:63
+msgid "Assignee"
+msgstr ""
+
+#: app/Models/Task.php:676 app/Services/TransStrings.php:64
+#: builds/fluent-boards/app/Models/Task.php:676
+#: builds/fluent-boards/app/Services/TransStrings.php:64
+msgid "Assignees"
+msgstr ""
+
+#: app/Services/TransStrings.php:65
+#: builds/fluent-boards/app/Services/TransStrings.php:65
+msgid "Associate Tasks"
+msgstr ""
+
+#: app/Models/Task.php:661 builds/fluent-boards/app/Models/Task.php:661
+msgid "Associated CRM Contact First Name. Example: \"John\""
+msgstr ""
+
+#: app/Models/Task.php:667 builds/fluent-boards/app/Models/Task.php:667
+msgid "Associated CRM Contact Last Name"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:755
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:755
+msgid "Associated Crm Member has been updated"
+msgstr ""
+
+#: app/Services/TransStrings.php:66
+#: builds/fluent-boards/app/Services/TransStrings.php:66
+msgid "Attachment"
+msgstr ""
+
+#: app/Http/Controllers/CommentController.php:258
+#: builds/fluent-boards/app/Http/Controllers/CommentController.php:258
+msgid "attachment has been added"
+msgstr ""
+
+#: app/Services/TransStrings.php:67
+#: builds/fluent-boards/app/Services/TransStrings.php:67
+msgid "Attachments"
+msgstr ""
+
+#: app/Services/TransStrings.php:68
+#: builds/fluent-boards/app/Services/TransStrings.php:68
+msgid "Back"
+msgstr ""
+
+#: app/Services/TransStrings.php:69
+#: builds/fluent-boards/app/Services/TransStrings.php:69
+msgid "Background Color"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:675
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:675
+msgid "Background updated successfully"
+msgstr ""
+
+#: app/Models/Task.php:578 app/Services/TransStrings.php:70
+#: builds/fluent-boards/app/Models/Task.php:578
+#: builds/fluent-boards/app/Services/TransStrings.php:70
+msgid "Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:372
+#: builds/fluent-boards/app/Services/TransStrings.php:372
+msgid "board"
+msgstr ""
+
+#: app/Services/TransStrings.php:71
+#: builds/fluent-boards/app/Services/TransStrings.php:71
+msgid "Board Description"
+msgstr ""
+
+#: app/Services/TaskService.php:27
+#: builds/fluent-boards/app/Services/TaskService.php:27
+msgid "Board doesn't exists"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:193
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:193
+msgid "Board has been created"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:226
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:226
+msgid "Board has been created successfully"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:396
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:396
+msgid "Board has been deleted"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:307
+#: app/Http/Controllers/BoardController.php:893
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:307
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:893
+msgid "Board has been updated"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:79
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:79
+msgid "Board id is not valid"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:670
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:670
+msgid "Board id is required"
+msgstr ""
+
+#: app/Services/TransStrings.php:72
+#: builds/fluent-boards/app/Services/TransStrings.php:72
+msgid "Board Info"
+msgstr ""
+
+#: app/Services/TransStrings.php:73
+#: builds/fluent-boards/app/Services/TransStrings.php:73
+msgid "Board Members"
+msgstr ""
+
+#: app/Services/TransStrings.php:74
+#: builds/fluent-boards/app/Services/TransStrings.php:74
+msgid "Board Menu"
+msgstr ""
+
+#: app/Http/Controllers/NotificationController.php:83
+#: builds/fluent-boards/app/Http/Controllers/NotificationController.php:83
+msgid "Board notification settings has been updated"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:359
+#: app/Http/Controllers/StageController.php:79
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:359
+#: builds/fluent-boards/app/Http/Controllers/StageController.php:79
+msgid "Board stage has been updated"
+msgstr ""
+
+#: app/Services/TransStrings.php:75
+#: builds/fluent-boards/app/Services/TransStrings.php:75
+msgid "Board Title"
+msgstr ""
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:92
+#: app/Hooks/Handlers/AdminMenuHandler.php:93
+#: app/Hooks/Handlers/AdminMenuHandler.php:216
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:92
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:93
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:216
+msgid "Boards"
+msgstr ""
+
+#: app/Services/TransStrings.php:76
+#: builds/fluent-boards/app/Services/TransStrings.php:76
+msgid "Border Radius"
+msgstr ""
+
+#: app/Services/TransStrings.php:77
+#: builds/fluent-boards/app/Services/TransStrings.php:77
+msgid "Button Preview"
+msgstr ""
+
+#: app/Services/TransStrings.php:78
+#: builds/fluent-boards/app/Services/TransStrings.php:78
+msgid "Button Text"
+msgstr ""
+
+#: app/Services/TransStrings.php:373
+#: builds/fluent-boards/app/Services/TransStrings.php:373
+msgid "button to create a new task."
+msgstr ""
+
+#: app/Services/TransStrings.php:79
+#: builds/fluent-boards/app/Services/TransStrings.php:79
+msgid "Button URL"
+msgstr ""
+
+#: app/Services/TransStrings.php:80
+#: builds/fluent-boards/app/Services/TransStrings.php:80
+msgid "By Tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:81
+#: builds/fluent-boards/app/Services/TransStrings.php:81
+msgid "By Users"
+msgstr ""
+
+#: app/Services/TransStrings.php:85
+#: builds/fluent-boards/app/Services/TransStrings.php:85
+msgid "Can users reactions with unauthenticated along with authentication?*"
+msgstr ""
+
+#: app/Services/TransStrings.php:86
+#: builds/fluent-boards/app/Services/TransStrings.php:86
+msgid "Can users vote and comment with name, email along with authentication?*"
+msgstr ""
+
+#: app/Services/TransStrings.php:87 app/Services/TransStrings.php:374
+#: builds/fluent-boards/app/Services/TransStrings.php:87
+#: builds/fluent-boards/app/Services/TransStrings.php:374
+msgid "Cancel"
+msgstr ""
+
+#: app/Services/TransStrings.php:88
+#: builds/fluent-boards/app/Services/TransStrings.php:88
+msgid "Card View"
+msgstr ""
+
+#: app/Services/TransStrings.php:89
+#: builds/fluent-boards/app/Services/TransStrings.php:89
+msgid "Cards View Preference"
+msgstr ""
+
+#: app/Services/TransStrings.php:90
+#: builds/fluent-boards/app/Services/TransStrings.php:90
+msgid "Change Cover"
+msgstr ""
+
+#: app/Services/TransStrings.php:405
+#: builds/fluent-boards/app/Services/TransStrings.php:405
+msgid "changed task priority"
+msgstr ""
+
+#: app/Services/TransStrings.php:91
+#: builds/fluent-boards/app/Services/TransStrings.php:91
+msgid "Choose a file or drag & drop it here."
+msgstr ""
+
+#: app/Services/TransStrings.php:420
+#: builds/fluent-boards/app/Services/TransStrings.php:420
+msgid "Circle"
+msgstr ""
+
+#: app/Services/TransStrings.php:92
+#: builds/fluent-boards/app/Services/TransStrings.php:92
+msgid "Clear"
+msgstr ""
+
+#: app/Services/TransStrings.php:375
+#: builds/fluent-boards/app/Services/TransStrings.php:375
+msgid "click here"
+msgstr ""
+
+#: app/Services/TransStrings.php:93
+#: builds/fluent-boards/app/Services/TransStrings.php:93
+msgid "Click on the"
+msgstr ""
+
+#: app/Services/TransStrings.php:397
+#: builds/fluent-boards/app/Services/TransStrings.php:397
+msgid "Click Send Invitation to add to this board"
+msgstr ""
+
+#: app/Services/TransStrings.php:94
+#: builds/fluent-boards/app/Services/TransStrings.php:94
+msgid "Click to change Status"
+msgstr ""
+
+#: app/Services/TransStrings.php:95
+#: builds/fluent-boards/app/Services/TransStrings.php:95
+msgid "Close"
+msgstr ""
+
+#: app/Services/TransStrings.php:422
+#: builds/fluent-boards/app/Services/TransStrings.php:422
+msgid "Closest Corner"
+msgstr ""
+
+#: app/Services/TransStrings.php:421
+#: builds/fluent-boards/app/Services/TransStrings.php:421
+msgid "Closest Side"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:587
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:587
+msgid ""
+"Collect leads and build any type of forms, accept payments, connect with "
+"your CRM with the Fastest Contact Form Builder Plugin for WordPress"
+msgstr ""
+
+#: app/Services/TransStrings.php:96
+#: builds/fluent-boards/app/Services/TransStrings.php:96
+msgid "Comment"
+msgstr ""
+
+#: app/Http/Controllers/CommentController.php:105
+#: builds/fluent-boards/app/Http/Controllers/CommentController.php:105
+msgid "Comment has been added"
+msgstr ""
+
+#: app/Http/Controllers/CommentController.php:166
+#: builds/fluent-boards/app/Http/Controllers/CommentController.php:166
+msgid "Comment has been deleted"
+msgstr ""
+
+#: app/Http/Controllers/CommentController.php:153
+#: builds/fluent-boards/app/Http/Controllers/CommentController.php:153
+msgid "Comment has been updated"
+msgstr ""
+
+#: app/Services/TransStrings.php:98
+#: builds/fluent-boards/app/Services/TransStrings.php:98
+msgid "Comments"
+msgstr ""
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:251
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:251
+msgid "Community"
+msgstr ""
+
+#: app/Services/TransStrings.php:99
+#: builds/fluent-boards/app/Services/TransStrings.php:99
+msgid "Completed"
+msgstr ""
+
+#: app/Services/TransStrings.php:100 app/Services/TransStrings.php:376
+#: builds/fluent-boards/app/Services/TransStrings.php:100
+#: builds/fluent-boards/app/Services/TransStrings.php:376
+msgid "Confirm"
+msgstr ""
+
+#: app/Services/TransStrings.php:101
+#: builds/fluent-boards/app/Services/TransStrings.php:101
+msgid "Confirmation Required"
+msgstr ""
+
+#: app/Services/TransStrings.php:416
+#: builds/fluent-boards/app/Services/TransStrings.php:416
+msgid "Conic"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:59
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:59
+msgid "Contact added to any of the selected boards"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:26
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:43
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:26
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:43
+msgid "Contact Added to Board"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:27
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:44
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:27
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:44
+msgid "Contact Added to Task"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:60
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:60
+msgid "Contact added to task in any of the selected boards"
+msgstr ""
+
+#: app/Models/Task.php:658 builds/fluent-boards/app/Models/Task.php:658
+msgid "Contact First Name"
+msgstr ""
+
+#: app/Models/Task.php:664 builds/fluent-boards/app/Models/Task.php:664
+msgid "Contact Last Name"
+msgstr ""
+
+#: app/Services/TransStrings.php:102
+#: builds/fluent-boards/app/Services/TransStrings.php:102
+msgid "Convert to Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:103
+#: builds/fluent-boards/app/Services/TransStrings.php:103
+msgid "Copy Stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:428
+#: builds/fluent-boards/app/Services/TransStrings.php:428
+msgid ""
+"Copy the keys in the Key column and paste it into the app you want to use "
+"for sending the POST request, so it will send the data into the task field "
+"you want."
+msgstr ""
+
+#: app/Services/TransStrings.php:427
+#: builds/fluent-boards/app/Services/TransStrings.php:427
+msgid "Copy the webhook URL you want to send your POST request to."
+msgstr ""
+
+#: app/Services/TransStrings.php:104
+#: builds/fluent-boards/app/Services/TransStrings.php:104
+msgid "Cover photo"
+msgstr ""
+
+#: app/Services/TransStrings.php:105
+#: builds/fluent-boards/app/Services/TransStrings.php:105
+msgid "Create"
+msgstr ""
+
+#: app/Services/TransStrings.php:110
+#: builds/fluent-boards/app/Services/TransStrings.php:110
+msgid "Create a new template"
+msgstr ""
+
+#: app/Services/TransStrings.php:106
+#: builds/fluent-boards/app/Services/TransStrings.php:106
+msgid "Create Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:107
+#: builds/fluent-boards/app/Services/TransStrings.php:107
+msgid "Create First Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:111
+#: builds/fluent-boards/app/Services/TransStrings.php:111
+msgid "Create new board"
+msgstr ""
+
+#: app/Services/TransStrings.php:112
+#: builds/fluent-boards/app/Services/TransStrings.php:112
+msgid "Create new task"
+msgstr ""
+
+#: app/Services/TransStrings.php:113
+#: builds/fluent-boards/app/Services/TransStrings.php:113
+msgid "Create roadmap"
+msgstr ""
+
+#: app/Services/TransStrings.php:108
+#: builds/fluent-boards/app/Services/TransStrings.php:108
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:25
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:38
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:25
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:38
+msgid "Create Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:114
+#: builds/fluent-boards/app/Services/TransStrings.php:114
+msgid "Create task"
+msgstr ""
+
+#: app/Services/TransStrings.php:115
+#: builds/fluent-boards/app/Services/TransStrings.php:115
+msgid "Create task from template"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:26
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:26
+msgid "Create Task to the selected Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:109
+#: builds/fluent-boards/app/Services/TransStrings.php:109
+msgid "Create Your Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:402
+#: builds/fluent-boards/app/Services/TransStrings.php:402
+msgid "created a new subtask"
+msgstr ""
+
+#: app/Services/TransStrings.php:116
+#: builds/fluent-boards/app/Services/TransStrings.php:116
+msgid "Created By"
+msgstr ""
+
+#: app/Services/TransStrings.php:117
+#: builds/fluent-boards/app/Services/TransStrings.php:117
+msgid "Created On"
+msgstr ""
+
+#: app/Services/TransStrings.php:83
+#: builds/fluent-boards/app/Services/TransStrings.php:83
+msgid "CRM Contact"
+msgstr ""
+
+#: app/Services/TransStrings.php:84
+#: builds/fluent-boards/app/Services/TransStrings.php:84
+msgid "CRM contact"
+msgstr ""
+
+#: app/Models/Task.php:652 builds/fluent-boards/app/Models/Task.php:652
+msgid "CRM Contact Email"
+msgstr ""
+
+#: app/Models/Task.php:646 builds/fluent-boards/app/Models/Task.php:646
+msgid "CRM Contact Id"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Hooks/Handlers/ProScheduleHandler.php:170
+msgid "Daily Digest Mail"
+msgstr ""
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:83
+#: app/Hooks/Handlers/AdminMenuHandler.php:84
+#: app/Hooks/Handlers/AdminMenuHandler.php:211
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:83
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:84
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:211
+msgid "Dashboard"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:560
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:560
+msgid "Dashboard view settings are updated"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:216
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:216
+msgid "Dates has been updated"
+msgstr ""
+
+#: app/Services/TransStrings.php:383
+#: builds/fluent-boards/app/Services/TransStrings.php:383
+msgid "days"
+msgstr ""
+
+#: app/Services/TransStrings.php:118
+#: builds/fluent-boards/app/Services/TransStrings.php:118
+msgid "Define Board Stages"
+msgstr ""
+
+#: app/Services/TransStrings.php:119
+#: builds/fluent-boards/app/Services/TransStrings.php:119
+msgid "Define Stages"
+msgstr ""
+
+#: app/Services/TransStrings.php:120
+#: builds/fluent-boards/app/Services/TransStrings.php:120
+msgid "Define stages & complete your roadmap"
+msgstr ""
+
+#: app/Services/TransStrings.php:121
+#: builds/fluent-boards/app/Services/TransStrings.php:121
+msgid "Define your deal stages"
+msgstr ""
+
+#: app/Services/TransStrings.php:122
+#: builds/fluent-boards/app/Services/TransStrings.php:122
+msgid "Delete"
+msgstr ""
+
+#: app/Services/TransStrings.php:123
+#: builds/fluent-boards/app/Services/TransStrings.php:123
+msgid "Delete Label"
+msgstr ""
+
+#: app/Services/TransStrings.php:124
+#: builds/fluent-boards/app/Services/TransStrings.php:124
+msgid "Deleting item cannot be restored. Are you sure you want to proceed"
+msgstr ""
+
+#: app/Services/TransStrings.php:126
+#: builds/fluent-boards/app/Services/TransStrings.php:126
+msgid "Demote from Boards Admin"
+msgstr ""
+
+#: app/Services/TransStrings.php:125
+#: builds/fluent-boards/app/Services/TransStrings.php:125
+msgid "Demote from Manager"
+msgstr ""
+
+#: app/Services/TransStrings.php:127
+#: builds/fluent-boards/app/Services/TransStrings.php:127
+msgid "Denotes mandatory field"
+msgstr ""
+
+#: app/Services/TransStrings.php:128
+#: builds/fluent-boards/app/Services/TransStrings.php:128
+msgid "Describe Your Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:129
+#: builds/fluent-boards/app/Services/TransStrings.php:129
+msgid "Describe your first roadmap"
+msgstr ""
+
+#: app/Models/Task.php:574 app/Models/Task.php:610
+#: app/Services/TransStrings.php:130
+#: builds/fluent-boards/app/Models/Task.php:574
+#: builds/fluent-boards/app/Models/Task.php:610
+#: builds/fluent-boards/app/Services/TransStrings.php:130
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:65
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:65
+msgid "Description"
+msgstr ""
+
+#: app/Models/Task.php:613 builds/fluent-boards/app/Models/Task.php:613
+msgid "Description of the task"
+msgstr ""
+
+#: app/Services/TransStrings.php:131
+#: builds/fluent-boards/app/Services/TransStrings.php:131
+msgid "Design Your Button"
+msgstr ""
+
+#: app/Services/TransStrings.php:132
+#: builds/fluent-boards/app/Services/TransStrings.php:132
+msgid "Drop json file here or"
+msgstr ""
+
+#: app/Models/Task.php:576 app/Models/Task.php:622
+#: app/Services/TransStrings.php:133
+#: app/Hooks/Handlers/FluentCrmIntegration.php:170
+#: builds/fluent-boards/app/Models/Task.php:576
+#: builds/fluent-boards/app/Models/Task.php:622
+#: builds/fluent-boards/app/Services/TransStrings.php:133
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:56
+#: builds/fluent-boards/app/Hooks/Handlers/FluentCrmIntegration.php:170
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:56
+msgid "Due Date"
+msgstr ""
+
+#: app/Services/TransStrings.php:384
+#: builds/fluent-boards/app/Services/TransStrings.php:384
+msgid "Due date has been updated of a task you are watching."
+msgstr ""
+
+#: app/Services/TransStrings.php:134
+#: builds/fluent-boards/app/Services/TransStrings.php:134
+msgid "Duplicate"
+msgstr ""
+
+#: app/Http/Controllers/StageController.php:113
+#: builds/fluent-boards/app/Http/Controllers/StageController.php:113
+msgid "Duplicate or empty stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:135
+#: builds/fluent-boards/app/Services/TransStrings.php:135
+msgid "Edit"
+msgstr ""
+
+#: app/Services/TransStrings.php:136
+#: builds/fluent-boards/app/Services/TransStrings.php:136
+msgid "Edit template"
+msgstr ""
+
+#: app/Services/TransStrings.php:419
+#: builds/fluent-boards/app/Services/TransStrings.php:419
+msgid "Ellipse"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Views/register_member_form.php:115
+msgid "Email"
+msgstr ""
+
+#: app/Services/TransStrings.php:137
+#: builds/fluent-boards/app/Services/TransStrings.php:137
+msgid "Email Notification Preferences"
+msgstr ""
+
+#: app/Services/TransStrings.php:138
+#: builds/fluent-boards/app/Services/TransStrings.php:138
+msgid "Email Notifications"
+msgstr ""
+
+#: app/Services/TransStrings.php:139
+#: builds/fluent-boards/app/Services/TransStrings.php:139
+msgid "Enable All"
+msgstr ""
+
+#: app/Services/TransStrings.php:140
+#: builds/fluent-boards/app/Services/TransStrings.php:140
+msgid "Enable Time Tracking Feature"
+msgstr ""
+
+#: app/Services/TransStrings.php:141
+#: builds/fluent-boards/app/Services/TransStrings.php:141
+msgid "Enable/Disable Fluent Board's Advanced features or integrations."
+msgstr ""
+
+#: app/Services/Intergrations/FluentFormIntegration/Bootstrap.php:410
+#: builds/fluent-boards/app/Services/Intergrations/FluentFormIntegration/Bootstrap.php:410
+msgid "Error when submitting data to Fluent Board server."
+msgstr ""
+
+#: app/Services/TransStrings.php:385
+#: builds/fluent-boards/app/Services/TransStrings.php:385
+msgid "estimated"
+msgstr ""
+
+#: app/Services/TransStrings.php:424
+#: builds/fluent-boards/app/Services/TransStrings.php:424
+msgid "Farthest Corner"
+msgstr ""
+
+#: app/Services/TransStrings.php:423
+#: builds/fluent-boards/app/Services/TransStrings.php:423
+msgid "Farthest Side"
+msgstr ""
+
+#: app/Services/TransStrings.php:142
+#: builds/fluent-boards/app/Services/TransStrings.php:142
+msgid "Features & Modules"
+msgstr ""
+
+#: app/Views/notification.php:188
+#: builds/fluent-boards/app/Views/notification.php:188
+msgid ""
+"Feel free to contact us with any additional questions at "
+"support@fluentboards.com"
+msgstr ""
+
+#: app/Services/UploadService.php:23
+#: builds/fluent-boards/app/Services/UploadService.php:23
+msgid "File upload failed"
+msgstr ""
+
+#: app/Services/TransStrings.php:143
+#: builds/fluent-boards/app/Services/TransStrings.php:143
+msgid "Filter"
+msgstr ""
+
+#: app/Services/TransStrings.php:144
+#: builds/fluent-boards/app/Services/TransStrings.php:144
+msgid "Filters"
+msgstr ""
+
+#: app/Services/TransStrings.php:145
+#: builds/fluent-boards/app/Services/TransStrings.php:145
+msgid "Finish"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Views/register_member_form.php:120
+msgid "First Name"
+msgstr ""
+
+#: app/Services/TransStrings.php:146
+#: builds/fluent-boards/app/Services/TransStrings.php:146
+msgid "First step to provide your roadmap a title, add some description."
+msgstr ""
+
+#. $parent_slug
+#. $page_title
+#: app/Hooks/Handlers/FluentCrmIntegration.php:18
+#: app/Hooks/Handlers/AdminMenuHandler.php:62
+#: app/Hooks/Handlers/AdminMenuHandler.php:63
+#: app/Hooks/Handlers/AdminMenuHandler.php:72
+#: app/Hooks/Handlers/AdminMenuHandler.php:73
+#: builds/fluent-boards/app/Hooks/Handlers/FluentCrmIntegration.php:18
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:62
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:63
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:72
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:73
+msgid "Fluent Boards"
+msgstr ""
+
+#. Name of the plugin
+msgid "Fluent Boards - Project Management Tool"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:294
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:294
+msgid "Fluent boards admin added"
+msgstr ""
+
+#: app/Services/Intergrations/FluentFormIntegration/Bootstrap.php:407
+#: builds/fluent-boards/app/Services/Intergrations/FluentFormIntegration/Bootstrap.php:407
+msgid ""
+"Fluent Boards feed has been successfully initialized and data has been "
+"pushed."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Fluent Boards is a powerful tool designed for efficient management of to-do "
+"lists, projects, and tasks with kanban board and more.."
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:581
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:581
+msgid "Fluent Forms"
+msgstr ""
+
+#: app/Services/InstallService.php:25
+#: app/Http/Controllers/OptionsController.php:687
+#: builds/fluent-boards/app/Services/InstallService.php:25
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:687
+msgid "Fluent Plugin"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:600
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:600
+msgid "Fluent SMTP"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:590
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:590
+msgid "Fluent Support"
+msgstr ""
+
+#: app/Hooks/Handlers/FluentCrmIntegration.php:16
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:26
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:25
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:24
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:26
+#: builds/fluent-boards/app/Hooks/Handlers/FluentCrmIntegration.php:16
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:26
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:25
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:24
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:26
+msgid "FluentBoards"
+msgstr ""
+
+#: app/Services/TransStrings.php:437
+#: builds/fluent-boards/app/Services/TransStrings.php:437
+msgid "FluentBoards Admin"
+msgstr ""
+
+#: app/Services/TransStrings.php:147
+#: builds/fluent-boards/app/Services/TransStrings.php:147
+msgid "FluentBoards Admin has all the privileges"
+msgstr ""
+
+#: app/Services/TransStrings.php:148
+#: builds/fluent-boards/app/Services/TransStrings.php:148
+msgid "FluentBoards will search in the users of this site"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:572
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:572
+msgid "FluentCRM"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:578
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:578
+msgid ""
+"FluentCRM is a Self Hosted Email Marketing Automation Plugin for WordPress. "
+"Manage your leads and customers, email campaigns, automated email sequencing "
+"and many more"
+msgstr ""
+
+#: app/Services/TransStrings.php:438
+#: builds/fluent-boards/app/Services/TransStrings.php:438
+msgid "FluentCRM Profile"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Hooks/Handlers/InstallationHandler.php:25
+msgid ""
+"FluentRoadmap is an add-on for FluentBoards that provides a clear view of "
+"user requests, project progress, and priorities. Share Feature Request "
+"Boards to gather new ideas, discuss, and upvote suggestions."
+msgstr ""
+
+#: app/Services/TransStrings.php:149
+#: builds/fluent-boards/app/Services/TransStrings.php:149
+msgid "Font Size"
+msgstr ""
+
+#: app/Services/TransStrings.php:150
+#: builds/fluent-boards/app/Services/TransStrings.php:150
+msgid "Font Style"
+msgstr ""
+
+#: app/Services/TransStrings.php:386
+#: builds/fluent-boards/app/Services/TransStrings.php:386
+msgid "from"
+msgstr ""
+
+#: app/Services/TransStrings.php:387
+#: builds/fluent-boards/app/Services/TransStrings.php:387
+msgid "from admin of"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:57
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:57
+msgid "From stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:151
+#: app/Hooks/Handlers/AdminMenuHandler.php:260
+#: builds/fluent-boards/app/Services/TransStrings.php:151
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:260
+msgid "Frontend Portal"
+msgstr ""
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:242
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:242
+msgid "Get Pro"
+msgstr ""
+
+#: app/Services/TransStrings.php:152
+#: builds/fluent-boards/app/Services/TransStrings.php:152
+msgid "Go Back"
+msgstr ""
+
+#: app/Services/TransStrings.php:154
+#: builds/fluent-boards/app/Services/TransStrings.php:154
+msgid "Go to boards"
+msgstr ""
+
+#: app/Services/TransStrings.php:449
+msgid "Go To task after creation."
+msgstr ""
+
+#: app/Services/TransStrings.php:153
+#: builds/fluent-boards/app/Services/TransStrings.php:153
+msgid "Go to Ticket"
+msgstr ""
+
+#: app/Views/emails/daily.php:9
+#: builds/fluent-boards/app/Views/emails/daily.php:9
+msgid "Good Morning"
+msgstr ""
+
+#: app/Services/TransStrings.php:413
+#: builds/fluent-boards/app/Services/TransStrings.php:413
+msgid "Gradient Type"
+msgstr ""
+
+#: app/Hooks/Handlers/BoardHandler.php:119
+#: builds/fluent-boards/app/Hooks/Handlers/BoardHandler.php:119
+#, php-format
+msgid "had changed the position of <em><strong>%1s</strong></em> stage."
+msgstr ""
+
+#: app/Services/TransStrings.php:155
+#: builds/fluent-boards/app/Services/TransStrings.php:155
+msgid "Hours"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://fluentboards.com"
+msgstr ""
+
+#: app/Services/TransStrings.php:166
+#: builds/fluent-boards/app/Services/TransStrings.php:166
+msgid "Idea submitted from frontend page"
+msgstr ""
+
+#: app/Services/TransStrings.php:156
+#: builds/fluent-boards/app/Services/TransStrings.php:156
+msgid "Import"
+msgstr ""
+
+#: app/Services/TransStrings.php:157
+#: builds/fluent-boards/app/Services/TransStrings.php:157
+msgid "Import From"
+msgstr ""
+
+#: app/Services/TransStrings.php:158
+#: builds/fluent-boards/app/Services/TransStrings.php:158
+msgid "Import from"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:861
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:861
+msgid "Import successfully"
+msgstr ""
+
+#: app/Services/TransStrings.php:159
+#: builds/fluent-boards/app/Services/TransStrings.php:159
+msgid "Import your data from JSON file."
+msgstr ""
+
+#: app/Services/TransStrings.php:430
+#: builds/fluent-boards/app/Services/TransStrings.php:430
+msgid "in"
+msgstr ""
+
+#: app/Services/TransStrings.php:388
+#: builds/fluent-boards/app/Services/TransStrings.php:388
+msgid "in the comment section of the roadmap?*"
+msgstr ""
+
+#: app/Services/TransStrings.php:160
+#: builds/fluent-boards/app/Services/TransStrings.php:160
+msgid "Insert"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:586
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:586
+msgid "Install Fluent Forms"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:605
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:605
+msgid "Install Fluent SMTP"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:596
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:596
+msgid "Install Fluent Support"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:577
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:577
+msgid "Install FluentCRM"
+msgstr ""
+
+#: app/Services/TransStrings.php:161
+#: builds/fluent-boards/app/Services/TransStrings.php:161
+msgid "Integrations"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:388
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:388
+msgid "Invalid Board"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:682
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:682
+msgid "Invalid plugin"
+msgstr ""
+
+#: app/Services/StageService.php:376 app/Services/UserService.php:351
+#: builds/fluent-boards/app/Services/StageService.php:376
+#: builds/fluent-boards/app/Services/UserService.php:351
+msgid "Invalid sort or orderBy parameter"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:381
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:381
+msgid "Invalid Stage"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:384
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:384
+msgid "Invalid Value"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Hooks/Handlers/ExternalPages.php:146
+msgid "Invalid Webhook Hash"
+msgstr ""
+
+#: app/Services/TransStrings.php:162
+#: builds/fluent-boards/app/Services/TransStrings.php:162
+msgid "Invite Member"
+msgstr ""
+
+#: app/Services/TransStrings.php:163
+#: builds/fluent-boards/app/Services/TransStrings.php:163
+msgid "Is authentication required for"
+msgstr ""
+
+#: app/Services/TransStrings.php:164
+#: builds/fluent-boards/app/Services/TransStrings.php:164
+msgid "Is authentication required for Idea submit?*"
+msgstr ""
+
+#: app/Services/TransStrings.php:165
+#: builds/fluent-boards/app/Services/TransStrings.php:165
+msgid "Is authentication required for the"
+msgstr ""
+
+#: app/Services/TransStrings.php:167
+#: builds/fluent-boards/app/Services/TransStrings.php:167
+msgid "Join as Assignee"
+msgstr ""
+
+#: app/Hooks/Handlers/ScheduleHandler.php:461
+#: builds/fluent-boards/app/Hooks/Handlers/ScheduleHandler.php:461
+msgid "Join Board"
+msgstr ""
+
+#: app/Hooks/Handlers/ScheduleHandler.php:460
+#: builds/fluent-boards/app/Hooks/Handlers/ScheduleHandler.php:460
+msgid "join board invitation in fluent boards"
+msgstr ""
+
+#: app/Services/TransStrings.php:168
+#: builds/fluent-boards/app/Services/TransStrings.php:168
+msgid "Kanban"
+msgstr ""
+
+#: app/Services/TransStrings.php:169
+#: builds/fluent-boards/app/Services/TransStrings.php:169
+msgid "Keep"
+msgstr ""
+
+#: app/Services/TransStrings.php:170
+#: builds/fluent-boards/app/Services/TransStrings.php:170
+msgid "Keep Labels"
+msgstr ""
+
+#: app/Services/TransStrings.php:171
+#: builds/fluent-boards/app/Services/TransStrings.php:171
+msgid "Keep Tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:435
+#: builds/fluent-boards/app/Services/TransStrings.php:435
+msgid "Keeping blank won't add any assignee"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:72
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:72
+msgid "Keeping it blank will select priority to low"
+msgstr ""
+
+#: app/Http/Controllers/LabelController.php:84
+#: builds/fluent-boards/app/Http/Controllers/LabelController.php:84
+msgid "Label has been added"
+msgstr ""
+
+#: app/Http/Controllers/LabelController.php:60
+#: builds/fluent-boards/app/Http/Controllers/LabelController.php:60
+msgid "Label has been created"
+msgstr ""
+
+#: app/Http/Controllers/LabelController.php:111
+#: app/Http/Controllers/LabelController.php:134
+#: builds/fluent-boards/app/Http/Controllers/LabelController.php:111
+#: builds/fluent-boards/app/Http/Controllers/LabelController.php:134
+msgid "Label has been deleted"
+msgstr ""
+
+#: app/Http/Controllers/LabelController.php:154
+#: builds/fluent-boards/app/Http/Controllers/LabelController.php:154
+msgid "Label has been updated"
+msgstr ""
+
+#: app/Models/Task.php:670 app/Services/TransStrings.php:172
+#: builds/fluent-boards/app/Models/Task.php:670
+#: builds/fluent-boards/app/Services/TransStrings.php:172
+msgid "Labels"
+msgstr ""
+
+#: app/Services/TransStrings.php:173
+#: builds/fluent-boards/app/Services/TransStrings.php:173
+msgid "Last 3 months"
+msgstr ""
+
+#: app/Services/TransStrings.php:174
+#: builds/fluent-boards/app/Services/TransStrings.php:174
+msgid "Last month"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Views/register_member_form.php:125
+msgid "Last Name"
+msgstr ""
+
+#: app/Services/TransStrings.php:175
+#: builds/fluent-boards/app/Services/TransStrings.php:175
+msgid "Last quarter"
+msgstr ""
+
+#: app/Services/TransStrings.php:176
+#: builds/fluent-boards/app/Services/TransStrings.php:176
+msgid "Last week"
+msgstr ""
+
+#: app/Services/TransStrings.php:177
+#: builds/fluent-boards/app/Services/TransStrings.php:177
+msgid "Learn"
+msgstr ""
+
+#: app/Services/TransStrings.php:178
+#: builds/fluent-boards/app/Services/TransStrings.php:178
+msgid "Learn More"
+msgstr ""
+
+#: app/Services/TransStrings.php:179
+#: builds/fluent-boards/app/Services/TransStrings.php:179
+msgid "Learn more"
+msgstr ""
+
+#: app/Services/TransStrings.php:181
+#: builds/fluent-boards/app/Services/TransStrings.php:181
+msgid "Leave board"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:59
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:71
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:59
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:71
+msgid "Leave empty to target any stage of this board"
+msgstr ""
+
+#: app/Services/TransStrings.php:180
+#: builds/fluent-boards/app/Services/TransStrings.php:180
+msgid "Leave Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:182
+#: builds/fluent-boards/app/Services/TransStrings.php:182
+msgid "License Key"
+msgstr ""
+
+#: app/Services/TransStrings.php:183
+#: builds/fluent-boards/app/Services/TransStrings.php:183
+msgid "License Management"
+msgstr ""
+
+#: app/Services/TransStrings.php:414
+#: builds/fluent-boards/app/Services/TransStrings.php:414
+msgid "Linear"
+msgstr ""
+
+#: app/Services/TransStrings.php:184
+#: builds/fluent-boards/app/Services/TransStrings.php:184
+msgid "List"
+msgstr ""
+
+#: app/Services/TransStrings.php:185
+#: builds/fluent-boards/app/Services/TransStrings.php:185
+msgid "Lists:"
+msgstr ""
+
+#: app/Services/TransStrings.php:186
+#: builds/fluent-boards/app/Services/TransStrings.php:186
+msgid "Load FluentBoards in the frontend of the website"
+msgstr ""
+
+#: app/Services/TransStrings.php:187
+#: builds/fluent-boards/app/Services/TransStrings.php:187
+msgid "Loading"
+msgstr ""
+
+#: app/Services/TransStrings.php:188
+#: builds/fluent-boards/app/Services/TransStrings.php:188
+msgid "Make FluentBoards Admin"
+msgstr ""
+
+#: app/Services/TransStrings.php:189
+#: builds/fluent-boards/app/Services/TransStrings.php:189
+msgid "Make Template"
+msgstr ""
+
+#: app/Services/TransStrings.php:193
+#: builds/fluent-boards/app/Services/TransStrings.php:193
+msgid "Make template"
+msgstr ""
+
+#: app/Services/TransStrings.php:190
+#: builds/fluent-boards/app/Services/TransStrings.php:190
+msgid "Make This Stage Admin Only"
+msgstr ""
+
+#: app/Services/TransStrings.php:191
+#: builds/fluent-boards/app/Services/TransStrings.php:191
+msgid "Make This Stage Public"
+msgstr ""
+
+#: app/Services/TransStrings.php:192
+#: builds/fluent-boards/app/Services/TransStrings.php:192
+msgid "Make User Board Admin"
+msgstr ""
+
+#: app/Services/TransStrings.php:194
+#: builds/fluent-boards/app/Services/TransStrings.php:194
+msgid "Manage"
+msgstr ""
+
+#: app/Services/TransStrings.php:195
+#: builds/fluent-boards/app/Services/TransStrings.php:195
+msgid "Manage User Permissions"
+msgstr ""
+
+#: app/Services/TransStrings.php:411
+#: builds/fluent-boards/app/Services/TransStrings.php:411
+msgid "Mark all as read"
+msgstr ""
+
+#: app/Services/TransStrings.php:196
+#: builds/fluent-boards/app/Services/TransStrings.php:196
+msgid "Member"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:543
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:543
+msgid "Member added successfully"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:204
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:204
+msgid "Member has been set super admin successfully!"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:526
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:526
+msgid "Member removed successfully"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:329
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:329
+msgid "Members added to boards"
+msgstr ""
+
+#: app/Services/TransStrings.php:197
+#: builds/fluent-boards/app/Services/TransStrings.php:197
+msgid "Members Role"
+msgstr ""
+
+#: app/Services/TransStrings.php:401
+#: builds/fluent-boards/app/Services/TransStrings.php:401
+msgid "mentioned you in a comment"
+msgstr ""
+
+#: app/Services/TransStrings.php:198
+#: builds/fluent-boards/app/Services/TransStrings.php:198
+msgid "Menu"
+msgstr ""
+
+#: app/Services/TransStrings.php:199
+#: builds/fluent-boards/app/Services/TransStrings.php:199
+msgid "Minutes"
+msgstr ""
+
+#: app/Services/TransStrings.php:389
+#: builds/fluent-boards/app/Services/TransStrings.php:389
+msgid "more"
+msgstr ""
+
+#: app/Services/TransStrings.php:200
+#: builds/fluent-boards/app/Services/TransStrings.php:200
+msgid "Move"
+msgstr ""
+
+#: app/Services/TransStrings.php:203
+#: builds/fluent-boards/app/Services/TransStrings.php:203
+msgid "Move all tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:201
+#: builds/fluent-boards/app/Services/TransStrings.php:201
+msgid "Move Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:202
+#: builds/fluent-boards/app/Services/TransStrings.php:202
+msgid "Move To"
+msgstr ""
+
+#: app/Services/TransStrings.php:204
+#: builds/fluent-boards/app/Services/TransStrings.php:204
+msgid "Move to next stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:404
+#: builds/fluent-boards/app/Services/TransStrings.php:404
+msgid "moved task to another stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:205
+#: builds/fluent-boards/app/Services/TransStrings.php:205
+msgid "My Tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:206
+#: builds/fluent-boards/app/Services/TransStrings.php:206
+msgid "Name Your Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:207
+#: builds/fluent-boards/app/Services/TransStrings.php:207
+msgid "Name your roadmap"
+msgstr ""
+
+#: app/Services/TransStrings.php:97
+#: builds/fluent-boards/app/Services/TransStrings.php:97
+msgid "New comments added on a task you are watching."
+msgstr ""
+
+#: app/Services/TransStrings.php:208
+#: builds/fluent-boards/app/Services/TransStrings.php:208
+msgid "Next"
+msgstr ""
+
+#: app/Services/TransStrings.php:210
+#: builds/fluent-boards/app/Services/TransStrings.php:210
+msgid "Next define stages"
+msgstr ""
+
+#: app/Services/TransStrings.php:209
+#: builds/fluent-boards/app/Services/TransStrings.php:209
+msgid "Next Step"
+msgstr ""
+
+#: app/Services/TransStrings.php:211
+#: builds/fluent-boards/app/Services/TransStrings.php:211
+msgid "No"
+msgstr ""
+
+#: app/Services/TransStrings.php:221
+#: builds/fluent-boards/app/Services/TransStrings.php:221
+msgid "No archive task found!"
+msgstr ""
+
+#: app/Services/TransStrings.php:222
+#: builds/fluent-boards/app/Services/TransStrings.php:222
+msgid "No archived stages found!"
+msgstr ""
+
+#: app/Services/TransStrings.php:212
+#: builds/fluent-boards/app/Services/TransStrings.php:212
+msgid "No Assignee"
+msgstr ""
+
+#: app/Services/TransStrings.php:213
+#: builds/fluent-boards/app/Services/TransStrings.php:213
+msgid "No Board Members"
+msgstr ""
+
+#: app/Services/TransStrings.php:214
+#: builds/fluent-boards/app/Services/TransStrings.php:214
+msgid "No Boards Yet!"
+msgstr ""
+
+#: app/Services/TransStrings.php:216
+#: builds/fluent-boards/app/Services/TransStrings.php:216
+msgid "No Completed Tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:223
+#: builds/fluent-boards/app/Services/TransStrings.php:223
+msgid "No contact found"
+msgstr ""
+
+#: app/Services/TransStrings.php:224
+#: builds/fluent-boards/app/Services/TransStrings.php:224
+msgid "No description, click to add"
+msgstr ""
+
+#: app/Services/TransStrings.php:217
+#: builds/fluent-boards/app/Services/TransStrings.php:217
+msgid "No Label"
+msgstr ""
+
+#: app/Services/TransStrings.php:225
+#: builds/fluent-boards/app/Services/TransStrings.php:225
+msgid "No members found to assign to this task."
+msgstr ""
+
+#: app/Services/TransStrings.php:226
+#: builds/fluent-boards/app/Services/TransStrings.php:226
+msgid "No members has been assigned of this task"
+msgstr ""
+
+#: app/Services/TransStrings.php:227
+#: builds/fluent-boards/app/Services/TransStrings.php:227
+msgid "No more activities"
+msgstr ""
+
+#: app/Services/TransStrings.php:228
+#: builds/fluent-boards/app/Services/TransStrings.php:228
+msgid "No more notification"
+msgstr ""
+
+#: app/Services/TransStrings.php:229
+#: builds/fluent-boards/app/Services/TransStrings.php:229
+msgid "No more stages"
+msgstr ""
+
+#: app/Services/TransStrings.php:230
+#: builds/fluent-boards/app/Services/TransStrings.php:230
+msgid "No more tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:231
+#: builds/fluent-boards/app/Services/TransStrings.php:231
+msgid "No notification"
+msgstr ""
+
+#: app/Services/TransStrings.php:218
+#: builds/fluent-boards/app/Services/TransStrings.php:218
+msgid "No Overdue Tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:219
+#: builds/fluent-boards/app/Services/TransStrings.php:219
+msgid "No Pending Invitations"
+msgstr ""
+
+#: app/Services/TransStrings.php:215
+#: builds/fluent-boards/app/Services/TransStrings.php:215
+msgid "No Roadmaps Yet!"
+msgstr ""
+
+#: app/Services/TransStrings.php:232
+#: builds/fluent-boards/app/Services/TransStrings.php:232
+msgid "No unread notification"
+msgstr ""
+
+#: app/Services/TransStrings.php:220
+#: builds/fluent-boards/app/Services/TransStrings.php:220
+msgid "No Upcoming Tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:233
+#: builds/fluent-boards/app/Services/TransStrings.php:233
+msgid "No, Thanks"
+msgstr ""
+
+#: app/Services/TransStrings.php:234
+#: builds/fluent-boards/app/Services/TransStrings.php:234
+msgid "Note"
+msgstr ""
+
+#: app/Services/TransStrings.php:235
+#: builds/fluent-boards/app/Services/TransStrings.php:235
+msgid ""
+"Note: For authentication in the Fluent roadmap, the Fluent Auth plugin is "
+"required."
+msgstr ""
+
+#: app/Http/Controllers/NotificationController.php:102
+#: builds/fluent-boards/app/Http/Controllers/NotificationController.php:102
+msgid "Notification is updated"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:345
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:345
+msgid "Notification settings are updated"
+msgstr ""
+
+#: app/Services/TransStrings.php:236
+#: builds/fluent-boards/app/Services/TransStrings.php:236
+msgid "Notifications"
+msgstr ""
+
+#: app/Services/TransStrings.php:237
+#: builds/fluent-boards/app/Services/TransStrings.php:237
+msgid "Now"
+msgstr ""
+
+#: app/Services/TransStrings.php:238
+#: builds/fluent-boards/app/Services/TransStrings.php:238
+msgid "OK"
+msgstr ""
+
+#: app/Services/TransStrings.php:395
+#: builds/fluent-boards/app/Services/TransStrings.php:395
+msgid "on stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:239
+#: builds/fluent-boards/app/Services/TransStrings.php:239
+msgid "Only template stages can be imported"
+msgstr ""
+
+#: app/Services/TransStrings.php:240
+#: builds/fluent-boards/app/Services/TransStrings.php:240
+msgid "Open"
+msgstr ""
+
+#: app/Services/TransStrings.php:241
+#: builds/fluent-boards/app/Services/TransStrings.php:241
+msgid "Open task"
+msgstr ""
+
+#: app/Services/TransStrings.php:242
+#: builds/fluent-boards/app/Services/TransStrings.php:242
+msgid "Options"
+msgstr ""
+
+#: app/Services/TransStrings.php:243
+#: builds/fluent-boards/app/Services/TransStrings.php:243
+msgid "Overdue"
+msgstr ""
+
+#: app/Services/TransStrings.php:390
+#: builds/fluent-boards/app/Services/TransStrings.php:390
+msgid "overdue task"
+msgstr ""
+
+#: app/Models/Task.php:598 builds/fluent-boards/app/Models/Task.php:598
+msgid "Parent Task"
+msgstr ""
+
+#: app/Models/Task.php:601 builds/fluent-boards/app/Models/Task.php:601
+msgid "Parent Task ID of the subtask. Example: 1"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Views/register_member_form.php:130
+msgid "Password"
+msgstr ""
+
+#: app/Services/TransStrings.php:244
+#: builds/fluent-boards/app/Services/TransStrings.php:244
+msgid "Pending Invitations:"
+msgstr ""
+
+#: app/Services/TransStrings.php:245
+#: builds/fluent-boards/app/Services/TransStrings.php:245
+msgid "Please Create Your First Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:247
+#: builds/fluent-boards/app/Services/TransStrings.php:247
+msgid "Please enter a keyword"
+msgstr ""
+
+#: app/Services/TransStrings.php:246
+#: builds/fluent-boards/app/Services/TransStrings.php:246
+msgid "Please Provide a license key of"
+msgstr ""
+
+#: app/Services/TransStrings.php:248
+#: builds/fluent-boards/app/Services/TransStrings.php:248
+msgid "Please, Try again with a different term"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:700
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:700
+msgid "Plugin is being installed"
+msgstr ""
+
+#: app/Services/TransStrings.php:249
+#: builds/fluent-boards/app/Services/TransStrings.php:249
+msgid "Plugins that will extend your Fluent Boards Functionalities"
+msgstr ""
+
+#: app/Services/TransStrings.php:250
+#: builds/fluent-boards/app/Services/TransStrings.php:250
+msgid "Position"
+msgstr ""
+
+#: app/Views/emails/comment-added.php:31 app/Views/emails/template.php:24
+#: builds/fluent-boards/app/Views/emails/comment-added.php:31
+#: builds/fluent-boards/app/Views/emails/template.php:24
+msgid "Powered By"
+msgstr ""
+
+#: app/Models/Task.php:575 app/Models/Task.php:616
+#: app/Services/TransStrings.php:251
+#: app/Hooks/Handlers/FluentCrmIntegration.php:171
+#: builds/fluent-boards/app/Models/Task.php:575
+#: builds/fluent-boards/app/Models/Task.php:616
+#: builds/fluent-boards/app/Services/TransStrings.php:251
+#: builds/fluent-boards/app/Hooks/Handlers/FluentCrmIntegration.php:171
+msgid "Priority"
+msgstr ""
+
+#: app/Models/Task.php:619 builds/fluent-boards/app/Models/Task.php:619
+msgid "Priority of the task (low | medium | high). Example: \"medium\" "
+msgstr ""
+
+#: app/Services/TransStrings.php:252 app/Views/admin/menu.php:11
+#: builds/fluent-boards/app/Services/TransStrings.php:252
+#: builds/fluent-boards/app/Views/admin/menu.php:11
+msgid "Pro"
+msgstr ""
+
+#: app/Services/TransStrings.php:253
+#: builds/fluent-boards/app/Services/TransStrings.php:253
+msgid "Processing... It may take a while..."
+msgstr ""
+
+#: app/Services/TransStrings.php:255
+#: builds/fluent-boards/app/Services/TransStrings.php:255
+msgid "Promote to All Boards Admin"
+msgstr ""
+
+#: app/Services/TransStrings.php:254
+#: builds/fluent-boards/app/Services/TransStrings.php:254
+msgid "Promote to Manager"
+msgstr ""
+
+#: app/Services/TransStrings.php:256
+#: builds/fluent-boards/app/Services/TransStrings.php:256
+msgid "Purchase one here"
+msgstr ""
+
+#: app/Services/TransStrings.php:257
+#: builds/fluent-boards/app/Services/TransStrings.php:257
+msgid "Quick Search"
+msgstr ""
+
+#: app/Services/TransStrings.php:258
+#: builds/fluent-boards/app/Services/TransStrings.php:258
+msgid "Quick View"
+msgstr ""
+
+#: app/Services/TransStrings.php:415
+#: builds/fluent-boards/app/Services/TransStrings.php:415
+msgid "Radial"
+msgstr ""
+
+#: app/Services/TransStrings.php:391
+#: builds/fluent-boards/app/Services/TransStrings.php:391
+msgid "reactions"
+msgstr ""
+
+#: app/Services/TransStrings.php:259
+#: builds/fluent-boards/app/Services/TransStrings.php:259
+msgid "Recent Searches"
+msgstr ""
+
+#: app/Services/TransStrings.php:260
+#: builds/fluent-boards/app/Services/TransStrings.php:260
+msgid "Recently Opened"
+msgstr ""
+
+#: app/Services/TransStrings.php:261
+#: builds/fluent-boards/app/Services/TransStrings.php:261
+msgid "Recommended Plugins and Addons"
+msgstr ""
+
+#: app/Services/TransStrings.php:262
+#: builds/fluent-boards/app/Services/TransStrings.php:262
+msgid "Refresh Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:263
+#: builds/fluent-boards/app/Services/TransStrings.php:263
+msgid "Related Support Ticket"
+msgstr ""
+
+#: app/Services/TransStrings.php:264
+#: builds/fluent-boards/app/Services/TransStrings.php:264
+msgid "Remove"
+msgstr ""
+
+#: app/Services/TransStrings.php:267
+#: builds/fluent-boards/app/Services/TransStrings.php:267
+msgid "Remove from Board"
+msgstr ""
+
+#: app/Services/TransStrings.php:268
+#: builds/fluent-boards/app/Services/TransStrings.php:268
+msgid "Remove from board"
+msgstr ""
+
+#: app/Services/TransStrings.php:265
+#: builds/fluent-boards/app/Services/TransStrings.php:265
+msgid "Remove Template"
+msgstr ""
+
+#: app/Services/TransStrings.php:266
+#: builds/fluent-boards/app/Services/TransStrings.php:266
+msgid "Remove User from Board Admin"
+msgstr ""
+
+#: app/Services/TransStrings.php:270
+#: builds/fluent-boards/app/Services/TransStrings.php:270
+msgid "Removed from a task"
+msgstr ""
+
+#: app/Services/TransStrings.php:271
+#: builds/fluent-boards/app/Services/TransStrings.php:271
+msgid "Reorder Stages"
+msgstr ""
+
+#: app/Services/TransStrings.php:400
+#: builds/fluent-boards/app/Services/TransStrings.php:400
+msgid "replied to a comment"
+msgstr ""
+
+#: app/Services/TransStrings.php:272
+#: builds/fluent-boards/app/Services/TransStrings.php:272
+msgid "Replies"
+msgstr ""
+
+#: app/Services/TransStrings.php:273
+#: builds/fluent-boards/app/Services/TransStrings.php:273
+msgid "Reply"
+msgstr ""
+
+#: app/Http/Controllers/CommentController.php:208
+#: builds/fluent-boards/app/Http/Controllers/CommentController.php:208
+msgid "Reply has been deleted"
+msgstr ""
+
+#: app/Http/Controllers/CommentController.php:195
+#: builds/fluent-boards/app/Http/Controllers/CommentController.php:195
+msgid "Reply has been updated"
+msgstr ""
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:103
+#: app/Hooks/Handlers/AdminMenuHandler.php:104
+#: app/Hooks/Handlers/AdminMenuHandler.php:225
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:103
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:104
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:225
+msgid "Reports"
+msgstr ""
+
+#: app/Services/TransStrings.php:274
+#: builds/fluent-boards/app/Services/TransStrings.php:274
+msgid "Resend"
+msgstr ""
+
+#: app/Services/TransStrings.php:275
+#: builds/fluent-boards/app/Services/TransStrings.php:275
+msgid "Restore"
+msgstr ""
+
+#: app/Services/TransStrings.php:276
+#: builds/fluent-boards/app/Services/TransStrings.php:276
+msgid "Restore Task"
+msgstr ""
+
+#: app/Services/TransStrings.php:407
+#: builds/fluent-boards/app/Services/TransStrings.php:407
+msgid "restored a task"
+msgstr ""
+
+#: app/Services/TransStrings.php:277
+#: builds/fluent-boards/app/Services/TransStrings.php:277
+msgid "Roadmap"
+msgstr ""
+
+#: app/Services/TransStrings.php:278
+#: builds/fluent-boards/app/Services/TransStrings.php:278
+msgid "Roadmap Settings"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:55
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:54
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:55
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:54
+msgid "Run When"
+msgstr ""
+
+#: app/Services/TransStrings.php:279
+#: builds/fluent-boards/app/Services/TransStrings.php:279
+msgid "Save"
+msgstr ""
+
+#: app/Services/TransStrings.php:280
+#: builds/fluent-boards/app/Services/TransStrings.php:280
+msgid "Save Settings"
+msgstr ""
+
+#: app/Services/TransStrings.php:281
+#: builds/fluent-boards/app/Services/TransStrings.php:281
+msgid "Search"
+msgstr ""
+
+#: app/Services/TransStrings.php:284
+#: builds/fluent-boards/app/Services/TransStrings.php:284
+msgid "Search Boards"
+msgstr ""
+
+#: app/Services/TransStrings.php:283
+#: builds/fluent-boards/app/Services/TransStrings.php:283
+msgid "Search for boards and tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:286
+#: builds/fluent-boards/app/Services/TransStrings.php:286
+msgid "Search member"
+msgstr ""
+
+#: app/Services/TransStrings.php:285
+#: builds/fluent-boards/app/Services/TransStrings.php:285
+msgid "Search Roadmaps"
+msgstr ""
+
+#: app/Services/TransStrings.php:282
+#: builds/fluent-boards/app/Services/TransStrings.php:282
+msgid "Search User:"
+msgstr ""
+
+#: app/Services/TransStrings.php:287
+#: builds/fluent-boards/app/Services/TransStrings.php:287
+msgid "Second step to provide stages name of your deal"
+msgstr ""
+
+#: app/Services/TransStrings.php:392
+#: builds/fluent-boards/app/Services/TransStrings.php:392
+msgid "sections of the roadmap?*"
+msgstr ""
+
+#: app/Services/TransStrings.php:291
+#: builds/fluent-boards/app/Services/TransStrings.php:291
+msgid "Select a board"
+msgstr ""
+
+#: app/Services/TransStrings.php:292
+#: builds/fluent-boards/app/Services/TransStrings.php:292
+msgid "Select a position"
+msgstr ""
+
+#: app/Services/TransStrings.php:293
+#: builds/fluent-boards/app/Services/TransStrings.php:293
+msgid "Select a stage"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:51
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:52
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:50
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:51
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:51
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:52
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:51
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:52
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:50
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:51
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:51
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:52
+msgid "Select Board"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:44
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:45
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:44
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:45
+msgid "Select Board & It's stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:288
+#: builds/fluent-boards/app/Services/TransStrings.php:288
+msgid "Select Boards"
+msgstr ""
+
+#: app/Services/TransStrings.php:289
+#: builds/fluent-boards/app/Services/TransStrings.php:289
+msgid "Select Contact"
+msgstr ""
+
+#: app/Services/TransStrings.php:290
+#: builds/fluent-boards/app/Services/TransStrings.php:290
+msgid "Select File"
+msgstr ""
+
+#: app/Services/TransStrings.php:432
+#: builds/fluent-boards/app/Services/TransStrings.php:432
+msgid "Select Parent Task"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:70
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:70
+msgid "Select Priority"
+msgstr ""
+
+#: app/Services/TransStrings.php:433
+#: builds/fluent-boards/app/Services/TransStrings.php:433
+msgid "Select Subtask Assignee"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:39
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:39
+msgid "Select which Board & Stage where task will be created"
+msgstr ""
+
+#: app/Services/TransStrings.php:294
+#: builds/fluent-boards/app/Services/TransStrings.php:294
+msgid "Selected Board has no stage !!"
+msgstr ""
+
+#: app/Services/TransStrings.php:448
+#: builds/fluent-boards/app/Services/TransStrings.php:448
+msgid "Send Email when Idea Moved"
+msgstr ""
+
+#: app/Services/TransStrings.php:295
+#: builds/fluent-boards/app/Services/TransStrings.php:295
+msgid "Send Invitation"
+msgstr ""
+
+#: app/Services/TransStrings.php:296
+#: builds/fluent-boards/app/Services/TransStrings.php:296
+msgid "Set Date"
+msgstr ""
+
+#: app/Services/TransStrings.php:297
+#: builds/fluent-boards/app/Services/TransStrings.php:297
+msgid "Set Estimated Time"
+msgstr ""
+
+#: app/Services/TransStrings.php:298
+#: builds/fluent-boards/app/Services/TransStrings.php:298
+msgid "Set Estimation"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:58
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:58
+msgid ""
+"Set to your_input days after task creation, values less than zero will set "
+"due date to null"
+msgstr ""
+
+#: app/Services/TransStrings.php:299
+#: app/Hooks/Handlers/AdminMenuHandler.php:112
+#: app/Hooks/Handlers/AdminMenuHandler.php:113
+#: app/Hooks/Handlers/AdminMenuHandler.php:234
+#: builds/fluent-boards/app/Services/TransStrings.php:299
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:112
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:113
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:234
+msgid "Settings"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:656
+#: app/Http/Controllers/OptionsController.php:901
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:656
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:901
+msgid "Settings are saved"
+msgstr ""
+
+#: app/Services/TransStrings.php:418
+#: builds/fluent-boards/app/Services/TransStrings.php:418
+msgid "Shape"
+msgstr ""
+
+#: app/Services/TransStrings.php:412
+#: builds/fluent-boards/app/Services/TransStrings.php:412
+msgid "Shortcode"
+msgstr ""
+
+#: app/Services/TransStrings.php:380
+#: builds/fluent-boards/app/Services/TransStrings.php:380
+msgid "Show assignees on task card"
+msgstr ""
+
+#: app/Services/TransStrings.php:300
+#: builds/fluent-boards/app/Services/TransStrings.php:300
+msgid "Show Board Info"
+msgstr ""
+
+#: app/Services/TransStrings.php:377
+#: builds/fluent-boards/app/Services/TransStrings.php:377
+msgid "Show comment count on task card"
+msgstr ""
+
+#: app/Services/TransStrings.php:382
+#: builds/fluent-boards/app/Services/TransStrings.php:382
+msgid "Show due date on task card"
+msgstr ""
+
+#: app/Services/TransStrings.php:378
+#: builds/fluent-boards/app/Services/TransStrings.php:378
+msgid "Show label on task card"
+msgstr ""
+
+#: app/Services/TransStrings.php:301
+#: builds/fluent-boards/app/Services/TransStrings.php:301
+msgid "Show more options"
+msgstr ""
+
+#: app/Services/TransStrings.php:379
+#: builds/fluent-boards/app/Services/TransStrings.php:379
+msgid "Show priority on task card"
+msgstr ""
+
+#: app/Services/TransStrings.php:381
+#: builds/fluent-boards/app/Services/TransStrings.php:381
+msgid "Show subtask count on task card"
+msgstr ""
+
+#: app/Services/TransStrings.php:425
+#: builds/fluent-boards/app/Services/TransStrings.php:425
+msgid "Size"
+msgstr ""
+
+#: app/Services/TransStrings.php:302
+#: builds/fluent-boards/app/Services/TransStrings.php:302
+msgid "Skip This Step"
+msgstr ""
+
+#: app/Services/TransStrings.php:303
+#: builds/fluent-boards/app/Services/TransStrings.php:303
+msgid "Sort By"
+msgstr ""
+
+#: app/Models/Task.php:579 app/Models/Task.php:634
+#: builds/fluent-boards/app/Models/Task.php:579
+#: builds/fluent-boards/app/Models/Task.php:634
+msgid "Source"
+msgstr ""
+
+#: app/Models/Task.php:640 builds/fluent-boards/app/Models/Task.php:640
+msgid "Source Id"
+msgstr ""
+
+#: app/Models/Task.php:577 app/Models/Task.php:592
+#: app/Services/TransStrings.php:304
+#: app/Hooks/Handlers/FluentCrmIntegration.php:168
+#: builds/fluent-boards/app/Models/Task.php:577
+#: builds/fluent-boards/app/Models/Task.php:592
+#: builds/fluent-boards/app/Services/TransStrings.php:304
+#: builds/fluent-boards/app/Hooks/Handlers/FluentCrmIntegration.php:168
+msgid "Stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:305
+#: builds/fluent-boards/app/Services/TransStrings.php:305
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:27
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:44
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:27
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:44
+msgid "Stage Changed"
+msgstr ""
+
+#: app/Services/TaskService.php:32
+#: builds/fluent-boards/app/Services/TaskService.php:32
+msgid "Stage doesn't exists"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:322
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:322
+msgid "Stage has been archived"
+msgstr ""
+
+#: app/Services/TransStrings.php:309
+#: builds/fluent-boards/app/Services/TransStrings.php:309
+msgid "Stage has been changed of a task you are watching."
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:779
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:779
+msgid "stage has been created"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:340
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:340
+msgid "Stage has been restored"
+msgstr ""
+
+#: app/Http/Controllers/StageController.php:29
+#: app/Http/Controllers/StageController.php:108
+#: builds/fluent-boards/app/Http/Controllers/StageController.php:29
+#: builds/fluent-boards/app/Http/Controllers/StageController.php:108
+msgid "Stage has been updated"
+msgstr ""
+
+#: app/Services/TransStrings.php:307
+#: builds/fluent-boards/app/Services/TransStrings.php:307
+msgid "Stage is required"
+msgstr ""
+
+#: app/Services/TransStrings.php:306
+#: builds/fluent-boards/app/Services/TransStrings.php:306
+msgid "Stage Name"
+msgstr ""
+
+#: app/Services/TransStrings.php:308
+#: builds/fluent-boards/app/Services/TransStrings.php:308
+msgid "Stage name :"
+msgstr ""
+
+#: app/Services/TransStrings.php:310
+#: builds/fluent-boards/app/Services/TransStrings.php:310
+msgid "Stages"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:372
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:372
+msgid "Stages Reordered"
+msgstr ""
+
+#: app/Models/Task.php:628 app/Services/TransStrings.php:311
+#: app/Hooks/Handlers/FluentCrmIntegration.php:169
+#: builds/fluent-boards/app/Models/Task.php:628
+#: builds/fluent-boards/app/Services/TransStrings.php:311
+#: builds/fluent-boards/app/Hooks/Handlers/FluentCrmIntegration.php:169
+msgid "Start Date"
+msgstr ""
+
+#: app/Services/TransStrings.php:312
+#: builds/fluent-boards/app/Services/TransStrings.php:312
+msgid "Start Importing"
+msgstr ""
+
+#: app/Services/TransStrings.php:426
+#: builds/fluent-boards/app/Services/TransStrings.php:426
+msgid "Starting Angle"
+msgstr ""
+
+#: app/Models/Task.php:604 app/Services/TransStrings.php:313
+#: builds/fluent-boards/app/Models/Task.php:604
+#: builds/fluent-boards/app/Services/TransStrings.php:313
+msgid "Status"
+msgstr ""
+
+#: app/Services/TransStrings.php:314
+#: builds/fluent-boards/app/Services/TransStrings.php:314
+msgid "Step 1"
+msgstr ""
+
+#: app/Services/TransStrings.php:315
+#: builds/fluent-boards/app/Services/TransStrings.php:315
+msgid "Step 2"
+msgstr ""
+
+#: app/Services/TransStrings.php:316
+#: builds/fluent-boards/app/Services/TransStrings.php:316
+msgid "Sub Task"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Views/register_member_form.php:134
+msgid "Submit"
+msgstr ""
+
+#: app/Services/TransStrings.php:447
+#: builds/fluent-boards/app/Services/TransStrings.php:447
+msgid "Subscribe for notifications for a task if you assign someone to it"
+msgstr ""
+
+#: app/Services/TransStrings.php:445
+#: builds/fluent-boards/app/Services/TransStrings.php:445
+msgid "Subscribe for notifications for a task if you comment or reply on it"
+msgstr ""
+
+#: app/Services/TransStrings.php:443
+#: builds/fluent-boards/app/Services/TransStrings.php:443
+msgid "Subscribe for notifications for cards you create"
+msgstr ""
+
+#: app/Services/TransStrings.php:317
+#: builds/fluent-boards/app/Services/TransStrings.php:317
+msgid "Subtask Count"
+msgstr ""
+
+#: app/Services/TransStrings.php:318
+#: builds/fluent-boards/app/Services/TransStrings.php:318
+msgid "Subtasks"
+msgstr ""
+
+#: app/Http/Controllers/WebhookController.php:59
+#: builds/fluent-boards/app/Http/Controllers/WebhookController.php:59
+msgid "Successfully Created the WebHook"
+msgstr ""
+
+#: app/Http/Controllers/WebhookController.php:79
+#: builds/fluent-boards/app/Http/Controllers/WebhookController.php:79
+msgid "Successfully deleted the webhook"
+msgstr ""
+
+#: app/Http/Controllers/WebhookController.php:69
+#: builds/fluent-boards/app/Http/Controllers/WebhookController.php:69
+msgid "Successfully updated the webhook"
+msgstr ""
+
+#: app/Views/notification.php:192
+#: builds/fluent-boards/app/Views/notification.php:192
+msgid "support@fluentboards.com"
+msgstr ""
+
+#: app/Services/TransStrings.php:319
+#: builds/fluent-boards/app/Services/TransStrings.php:319
+msgid "Tags:"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:69
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:69
+msgid "Target stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:320
+#: builds/fluent-boards/app/Services/TransStrings.php:320
+msgid "Task Archived"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:227
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:227
+msgid "Task cover photo has been updated"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Hooks/Handlers/ExternalPages.php:203
+msgid "Task Created Successfully"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Hooks/Handlers/ExternalPages.php:198
+msgid "Task Creation Failed"
+msgstr ""
+
+#: app/Services/TransStrings.php:321
+#: builds/fluent-boards/app/Services/TransStrings.php:321
+msgid "Task Dates"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:252
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:252
+msgid "Task has been deleted"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:86
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:86
+msgid "Task has been successfully created"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:192
+#: app/Http/Controllers/TaskController.php:418
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:192
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:418
+msgid "Task has been updated"
+msgstr ""
+
+#: app/Services/TransStrings.php:325
+#: builds/fluent-boards/app/Services/TransStrings.php:325
+msgid "Task has no description"
+msgstr ""
+
+#: app/Services/TransStrings.php:322
+#: builds/fluent-boards/app/Services/TransStrings.php:322
+msgid "Task Members"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:103
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:103
+msgid "Task not found"
+msgstr ""
+
+#: app/Views/emails/daily.php:29
+#: builds/fluent-boards/app/Views/emails/daily.php:29
+msgid "task of board"
+msgstr ""
+
+#: app/Services/TransStrings.php:326
+#: builds/fluent-boards/app/Services/TransStrings.php:326
+msgid "Task status"
+msgstr ""
+
+#: app/Http/Controllers/TaskController.php:236
+#: builds/fluent-boards/app/Http/Controllers/TaskController.php:236
+msgid "Task status has been updated"
+msgstr ""
+
+#: app/Services/TransStrings.php:323
+#: builds/fluent-boards/app/Services/TransStrings.php:323
+msgid "Task Templates"
+msgstr ""
+
+#: app/Services/TransStrings.php:324
+#: app/Hooks/Handlers/FluentCrmIntegration.php:167
+#: builds/fluent-boards/app/Services/TransStrings.php:324
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:51
+#: app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:52
+#: builds/fluent-boards/app/Hooks/Handlers/FluentCrmIntegration.php:167
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:51
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/TaskCreateAction.php:52
+msgid "Task Title"
+msgstr ""
+
+#: app/Services/TransStrings.php:327
+#: builds/fluent-boards/app/Services/TransStrings.php:327
+msgid "Task title cannot be empty."
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Hooks/Handlers/ExternalPages.php:155
+msgid "Task Title is required"
+msgstr ""
+
+#: app/Services/TransStrings.php:328
+#: builds/fluent-boards/app/Services/TransStrings.php:328
+msgid "Tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:329
+#: builds/fluent-boards/app/Services/TransStrings.php:329
+msgid "Tasks assigned to me"
+msgstr ""
+
+#: app/Views/emails/daily.php:15
+#: builds/fluent-boards/app/Views/emails/daily.php:15
+msgid "Tasks Due Today:"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:801
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:801
+msgid "Tasks has been archived"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:791
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:791
+msgid "Tasks has been Moved"
+msgstr ""
+
+#: app/Http/Controllers/StageController.php:65
+#: builds/fluent-boards/app/Http/Controllers/StageController.php:65
+msgid "Tasks has been sorted"
+msgstr ""
+
+#: app/Services/TransStrings.php:370
+#: builds/fluent-boards/app/Services/TransStrings.php:370
+msgid "Tasks you are watching are archived."
+msgstr ""
+
+#: app/Services/TransStrings.php:330
+#: builds/fluent-boards/app/Services/TransStrings.php:330
+msgid "Template"
+msgstr ""
+
+#: app/Services/TransStrings.php:331
+#: builds/fluent-boards/app/Services/TransStrings.php:331
+msgid "Text Color"
+msgstr ""
+
+#: app/Services/TransStrings.php:332
+#: builds/fluent-boards/app/Services/TransStrings.php:332
+msgid "Text to display"
+msgstr ""
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:494
+#: builds/fluent-boards/app/Hooks/Handlers/AdminMenuHandler.php:494
+#, php-format
+msgid "Thank you for using <a href=\"%s\">FluentBoards</a>"
+msgstr ""
+
+#: app/Models/Task.php:625 builds/fluent-boards/app/Models/Task.php:625
+msgid ""
+"The due date of the task in the format YYYY-MM-DD hh:mm. Example: 2099-12-31 "
+"23:59:59"
+msgstr ""
+
+#: app/Models/Task.php:655 builds/fluent-boards/app/Models/Task.php:655
+msgid ""
+"The email of the associated CRM contact. Example: \"john.doe@example.com\""
+msgstr ""
+
+#: app/Http/Controllers/CommentController.php:248
+#: builds/fluent-boards/app/Http/Controllers/CommentController.php:248
+msgid "The file must be a image type."
+msgstr ""
+
+#: app/Models/Task.php:649 builds/fluent-boards/app/Models/Task.php:649
+msgid "The ID of the associated FluentCRM contact. Example: 6465"
+msgstr ""
+
+#: app/Services/TransStrings.php:396
+#: builds/fluent-boards/app/Services/TransStrings.php:396
+msgid "The person with this email is not an user of this site."
+msgstr ""
+
+#: app/Models/Task.php:643 builds/fluent-boards/app/Models/Task.php:643
+msgid "The source Id of the task (if any). Example: \"bcy664fh177\""
+msgstr ""
+
+#: app/Models/Task.php:637 builds/fluent-boards/app/Models/Task.php:637
+msgid "The source of the task. Example: \"jira\""
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:625
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:625
+msgid "The stage is made admin only!"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:619
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:619
+msgid "The stage is made public!"
+msgstr ""
+
+#: app/Models/Task.php:595 builds/fluent-boards/app/Models/Task.php:595
+msgid ""
+"The stage of the task, which can be an ID, title, or slug. Example: 1 | "
+"\"open\" | \"Open\""
+msgstr ""
+
+#: app/Models/Task.php:631 builds/fluent-boards/app/Models/Task.php:631
+msgid ""
+"The start date of the task in the format YYYY-MM-DD. Example: 2099-12-31"
+msgstr ""
+
+#: app/Models/Task.php:607 builds/fluent-boards/app/Models/Task.php:607
+msgid "The status of the task (open | closed). Example: \"closed\""
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:606
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:606
+msgid ""
+"The Ultimate SMTP and SES Plugin for WordPress. Connect with any SMTP, "
+"SendGrid, Mailgun, SES, Sendinblue, PepiPost, Google, Microsoft and more."
+msgstr ""
+
+#: app/Services/TransStrings.php:333
+#: builds/fluent-boards/app/Services/TransStrings.php:333
+msgid "This Board has no stage"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:630
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:630
+msgid "This feature is only available in Fluent Boards Pro"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:881
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:881
+msgid "This feature is only available in Fluent Boards Pro. Please upgrade."
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:28
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/StageChangedTrigger.php:28
+msgid ""
+"This funnel will run when stage of a task(associated with crm contact) is "
+"changed"
+msgstr ""
+
+#: app/Services/TransStrings.php:335
+#: builds/fluent-boards/app/Services/TransStrings.php:335
+msgid "This is a template task"
+msgstr ""
+
+#: app/Services/TransStrings.php:336
+#: builds/fluent-boards/app/Services/TransStrings.php:336
+msgid "This is where your created boards will show up."
+msgstr ""
+
+#: app/Services/TransStrings.php:337
+#: builds/fluent-boards/app/Services/TransStrings.php:337
+msgid "This is where your created roadmaps will show up."
+msgstr ""
+
+#: app/Services/TransStrings.php:338
+#: builds/fluent-boards/app/Services/TransStrings.php:338
+msgid "This is where your recently opened boards will show up"
+msgstr ""
+
+#: app/Services/TransStrings.php:334
+#: builds/fluent-boards/app/Services/TransStrings.php:334
+msgid "This Month"
+msgstr ""
+
+#: app/Services/TransStrings.php:339
+#: builds/fluent-boards/app/Services/TransStrings.php:339
+msgid "This portal can be accessed from"
+msgstr ""
+
+#: app/Services/TransStrings.php:340
+#: builds/fluent-boards/app/Services/TransStrings.php:340
+msgid "This quarter"
+msgstr ""
+
+#: app/Services/TransStrings.php:434
+#: builds/fluent-boards/app/Services/TransStrings.php:434
+msgid "This task has assignees, please select one of them."
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:27
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedBoardTrigger.php:27
+msgid "This will run when a contact will be added to a board"
+msgstr ""
+
+#: app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:28
+#: builds/fluent-boards/app/Services/Intergrations/FluentCRM/Automations/ContactAddedTaskTrigger.php:28
+msgid "This will run when a contact will be added to a task"
+msgstr ""
+
+#: app/Services/TransStrings.php:341
+#: builds/fluent-boards/app/Services/TransStrings.php:341
+msgid "Time Tracking"
+msgstr ""
+
+#: app/Models/Task.php:573 app/Models/Task.php:586
+#: app/Services/TransStrings.php:342
+#: builds/fluent-boards/app/Models/Task.php:573
+#: builds/fluent-boards/app/Models/Task.php:586
+#: builds/fluent-boards/app/Services/TransStrings.php:342
+msgid "Title"
+msgstr ""
+
+#: app/Services/TransStrings.php:343
+#: builds/fluent-boards/app/Services/TransStrings.php:343
+msgid "Title is required"
+msgstr ""
+
+#: app/Models/Task.php:589 builds/fluent-boards/app/Models/Task.php:589
+msgid "Title of the task."
+msgstr ""
+
+#: app/Services/TransStrings.php:393
+#: builds/fluent-boards/app/Services/TransStrings.php:393
+msgid "to"
+msgstr ""
+
+#: app/Services/TransStrings.php:344
+#: builds/fluent-boards/app/Services/TransStrings.php:344
+msgid "Tomorrow"
+msgstr ""
+
+#: app/Services/TransStrings.php:345
+#: builds/fluent-boards/app/Services/TransStrings.php:345
+msgid ""
+"Track Time on each task and get detailed reports by boards, members, time "
+"range etc"
+msgstr ""
+
+#: app/Services/TransStrings.php:346
+#: builds/fluent-boards/app/Services/TransStrings.php:346
+msgid "Type anything to search"
+msgstr ""
+
+#: app/Services/TransStrings.php:347
+#: builds/fluent-boards/app/Services/TransStrings.php:347
+msgid "Type board title"
+msgstr ""
+
+#: app/Services/TransStrings.php:348
+#: builds/fluent-boards/app/Services/TransStrings.php:348
+msgid "Type name or email"
+msgstr ""
+
+#: app/Services/TransStrings.php:82
+#: builds/fluent-boards/app/Services/TransStrings.php:82
+msgid "Type Roadmap"
+msgstr ""
+
+#: app/Http/Controllers/CommentController.php:147
+#: app/Http/Controllers/CommentController.php:189
+#: builds/fluent-boards/app/Http/Controllers/CommentController.php:147
+#: builds/fluent-boards/app/Http/Controllers/CommentController.php:189
+msgid "Unauthorized Action"
+msgstr ""
+
+#: app/Services/TransStrings.php:349
+#: builds/fluent-boards/app/Services/TransStrings.php:349
+msgid "Undo remove stage"
+msgstr ""
+
+#: app/Services/TransStrings.php:350
+#: builds/fluent-boards/app/Services/TransStrings.php:350
+msgid "Unread"
+msgstr ""
+
+#: app/Services/TransStrings.php:351
+#: builds/fluent-boards/app/Services/TransStrings.php:351
+msgid "Upcoming"
+msgstr ""
+
+#: app/Services/TransStrings.php:352
+#: builds/fluent-boards/app/Services/TransStrings.php:352
+msgid "Update Estimation"
+msgstr ""
+
+#: app/Services/TransStrings.php:409
+#: builds/fluent-boards/app/Services/TransStrings.php:409
+msgid "updated a task description"
+msgstr ""
+
+#: app/Services/TransStrings.php:408
+#: builds/fluent-boards/app/Services/TransStrings.php:408
+msgid "updated a task title"
+msgstr ""
+
+#: app/Services/TransStrings.php:403
+#: builds/fluent-boards/app/Services/TransStrings.php:403
+msgid "updated due date"
+msgstr ""
+
+#: app/Services/TransStrings.php:410
+#: builds/fluent-boards/app/Services/TransStrings.php:410
+msgid "updated task assignee"
+msgstr ""
+
+#: app/Services/TransStrings.php:353
+#: builds/fluent-boards/app/Services/TransStrings.php:353
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: app/Services/TransStrings.php:354
+#: builds/fluent-boards/app/Services/TransStrings.php:354
+msgid "Upload"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:537
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:537
+msgid "User already a member"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:218
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:218
+msgid "User has been removed as super admin successfully!"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:258
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:258
+msgid "User removed as super admin"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:278
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:278
+msgid "User Removed from Board successfully!"
+msgstr ""
+
+#: app/Services/TransStrings.php:355
+#: builds/fluent-boards/app/Services/TransStrings.php:355
+msgid "User Role:"
+msgstr ""
+
+#: app/Services/TransStrings.php:356
+#: builds/fluent-boards/app/Services/TransStrings.php:356
+msgid "Verify License"
+msgstr ""
+
+#: app/Services/TransStrings.php:439
+#: builds/fluent-boards/app/Services/TransStrings.php:439
+msgid "View FluentCRM Profile"
+msgstr ""
+
+#: app/Services/TransStrings.php:357
+#: builds/fluent-boards/app/Services/TransStrings.php:357
+msgid "View Profile"
+msgstr ""
+
+#: app/Services/TransStrings.php:358
+#: builds/fluent-boards/app/Services/TransStrings.php:358
+msgid "View task activities"
+msgstr ""
+
+#: app/Services/TransStrings.php:359
+#: builds/fluent-boards/app/Services/TransStrings.php:359
+msgid "View task comments"
+msgstr ""
+
+#: app/Services/TransStrings.php:441
+#: builds/fluent-boards/app/Services/TransStrings.php:441
+msgid "View WordPress Profile"
+msgstr ""
+
+#: app/Services/TransStrings.php:360
+#: builds/fluent-boards/app/Services/TransStrings.php:360
+msgid "Votes Statistics"
+msgstr ""
+
+#: app/Services/TransStrings.php:394
+#: builds/fluent-boards/app/Services/TransStrings.php:394
+msgid "voting and commenting"
+msgstr ""
+
+#: app/Services/TransStrings.php:361
+#: builds/fluent-boards/app/Services/TransStrings.php:361
+msgid "Watch"
+msgstr ""
+
+#: app/Services/TransStrings.php:442
+#: builds/fluent-boards/app/Services/TransStrings.php:442
+msgid "Watch created tasks"
+msgstr ""
+
+#: app/Services/TransStrings.php:446
+#: builds/fluent-boards/app/Services/TransStrings.php:446
+msgid "Watch on assigning"
+msgstr ""
+
+#: app/Services/TransStrings.php:444
+#: builds/fluent-boards/app/Services/TransStrings.php:444
+msgid "Watch on commenting"
+msgstr ""
+
+#: app/Services/TransStrings.php:362
+#: builds/fluent-boards/app/Services/TransStrings.php:362
+msgid "Watching"
+msgstr ""
+
+#: app/Views/notification.php:177
+#: builds/fluent-boards/app/Views/notification.php:177
+msgid "We are here for you"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Hooks/Handlers/ExternalPages.php:131
+msgid "Webhook must need to be as POST Method"
+msgstr ""
+
+#: app/Services/TransStrings.php:429
+#: builds/fluent-boards/app/Services/TransStrings.php:429
+msgid ""
+"Webhooks are a way for one application to send data to another application "
+"in real-time. You can use this feature to send data to your own application "
+"or to third-party services."
+msgstr ""
+
+#: app/Services/TransStrings.php:363
+#: builds/fluent-boards/app/Services/TransStrings.php:363
+msgid "Welcome"
+msgstr ""
+
+#: app/Services/TransStrings.php:436
+#: builds/fluent-boards/app/Services/TransStrings.php:436
+msgid "WordPress Administrator"
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:597
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:597
+msgid ""
+"WordPress Helpdesk and Customer Support Ticket Plugin. Provide awesome "
+"support and manage customer queries right from your WordPress dashboard."
+msgstr ""
+
+#: app/Services/TransStrings.php:440
+#: builds/fluent-boards/app/Services/TransStrings.php:440
+msgid "WordPress Profile"
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Views/register_member_form.php:108
+msgid "WordPress Registration Form"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPManageNinja"
+msgstr ""
+
+#: app/Services/TransStrings.php:364
+#: builds/fluent-boards/app/Services/TransStrings.php:364
+msgid "Year to Date"
+msgstr ""
+
+#: app/Services/TransStrings.php:365
+#: builds/fluent-boards/app/Services/TransStrings.php:365
+msgid "Yes"
+msgstr ""
+
+#: app/Services/TransStrings.php:366
+#: builds/fluent-boards/app/Services/TransStrings.php:366
+msgid "You are about to delete the label"
+msgstr ""
+
+#: app/Services/TransStrings.php:371
+#: builds/fluent-boards/app/Services/TransStrings.php:371
+msgid "You are assigned to a new task."
+msgstr ""
+
+#: app/Services/TransStrings.php:269
+#: builds/fluent-boards/app/Services/TransStrings.php:269
+msgid "You are removed from a task."
+msgstr ""
+
+#: app/Http/Controllers/LabelController.php:126
+#: builds/fluent-boards/app/Http/Controllers/LabelController.php:126
+msgid "You can't delete. This label used in task."
+msgstr ""
+
+#: app/Http/Controllers/OptionsController.php:371
+#: builds/fluent-boards/app/Http/Controllers/OptionsController.php:371
+msgid "You do not have permission to access this route"
+msgstr ""
+
+#: app/Http/Controllers/BoardController.php:824
+#: builds/fluent-boards/app/Http/Controllers/BoardController.php:824
+msgid "You do not have permission to duplicate board"
+msgstr ""
+
+#: app/Services/TransStrings.php:367
+#: builds/fluent-boards/app/Services/TransStrings.php:367
+msgid "Your browser does not support the audio element."
+msgstr ""
+
+#: app/Services/TransStrings.php:368
+#: builds/fluent-boards/app/Services/TransStrings.php:368
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: builds/fluent-boards-pro/app/Hooks/Handlers/ProScheduleHandler.php:160
+msgid "Your Daily Task Summary - Stay on Track"
+msgstr ""
