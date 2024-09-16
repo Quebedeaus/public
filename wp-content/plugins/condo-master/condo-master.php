@@ -1,34 +1,156 @@
 <?php
-// Evitar acceso directo
+/*
+Plugin Name: Condo Master
+Description: Plugin integral para gestionar reservaciones, paquetería y otros módulos relacionados con la administración de condominios.
+Version: 1.3
+Author: Tu Nombre
+*/
+
+// Evitar acceso directo.
 if (!defined('ABSPATH')) {
     exit;
 }
 
-// Función para crear los menús de administración
-function condo_master_admin_menu() {
-    // Menú principal del plugin
+// Incluir Funciones Comunes y Archivos Necesarios.
+require_once plugin_dir_path(__FILE__) . 'includes/reservaciones-common.php';
+require_once plugin_dir_path(__FILE__) . 'includes/paqueteria-functions.php';
+require_once plugin_dir_path(__FILE__) . 'admin/csv-upload.php';
+require_once plugin_dir_path(__FILE__) . 'includes/domicilios_setup.php';
+require_once plugin_dir_path(__FILE__) . 'includes/user-management.php';
+
+// Incluir Módulos
+require_once plugin_dir_path(__FILE__) . 'modules/paqueteria.php';
+require_once plugin_dir_path(__FILE__) . 'modules/incident-reports.php';
+require_once plugin_dir_path(__FILE__) . 'modules/qr-codegenerator.php';
+require_once plugin_dir_path(__FILE__) . 'modules/visitor-management.php';
+require_once plugin_dir_path(__FILE__) . 'admin/reservaciones-admin.php';
+require_once plugin_dir_path(__FILE__) . 'public/paqueteria-public.php';
+require_once plugin_dir_path(__FILE__) . 'admin/paqueteria-settings.php';
+
+// Encolar scripts y estilos
+function condo_master_enqueue_scripts() {
+    if (is_admin()) {
+        wp_enqueue_script('domicilios-script', plugin_dir_url(__FILE__) . 'assets/js/domicilios-script.js', array('jquery'), null, true);
+        wp_enqueue_script('reservaciones-script', plugin_dir_url(__FILE__) . 'assets/js/reservaciones-script.js', array('jquery'), null, true);
+    } else {
+        wp_enqueue_script('reservaciones-script', plugin_dir_url(__FILE__) . 'assets/js/js/reservaciones-script.js', array('jquery'), null, true);
+        wp_enqueue_style('reservaciones-style', plugin_dir_url(__FILE__) . 'assets/js/css/reservaciones.css');
+        wp_enqueue_script('paqueteria-public', plugin_dir_url(__FILE__) . 'public/js/paqueteria-public.js', array('jquery'), null, true);
+        wp_enqueue_style('paqueteria-style', plugin_dir_url(__FILE__) . 'public/css/paqueteria-public.css');
+        wp_localize_script('paqueteria-public', 'paqueteria_ajax', array(
+            'ajax_url' => admin_url('admin-ajax.php'),
+            'nonce' => wp_create_nonce('paqueteria_update_nonce')
+        ));
+    }
+}
+add_action('wp_enqueue_scripts', 'condo_master_enqueue_scripts');
+add_action('admin_enqueue_scripts', 'condo_master_enqueue_scripts');
+
+// Registrar menús de administración.
+function condo_master_menu() {
     add_menu_page(
-        'Condo Master',             // Título de la página
-        'Condo Master',             // Título del menú
-        'manage_options',           // Capacidad
-        'condo-master',             // Slug del menú
-        'condo_master_admin_page',  // Función del contenido
-        'dashicons-admin-home',     // Ícono del menú
-        6                           // Posición
-    );
-
-    // Submenús
-    add_submenu_page(
-        'condo-master',              // Slug del menú padre
-        'Dashboard',                 // Título de la página
-        'Dashboard',                 // Título del submenú
-        'manage_options',            // Capacidad
-        'condo-master',              // Slug del submenú
-        'condo_master_admin_page'    // Función del contenido
+        'Condo Master',
+        'Condo Master',
+        'manage_options',
+        'condo-master-admin',
+        'condo_master_admin_page',
+        'dashicons-admin-multisite',
+        2
     );
 
     add_submenu_page(
-        'condo-master',
+        'condo-master-admin',
+        'Dashboard',
+        'Dashboard',
+        'manage_options',
+        'condo-master-admin',
+        'condo_master_admin_page'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',
+        'Reservaciones',
+        'Reservaciones',
+        'manage_options',
+        'reservaciones-admin',
+        'reservaciones_admin_page'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',
+        'Paquetería',
+        'Paquetería',
+        'manage_options',
+        'paqueteria-admin',
+        'mostrar_pagina_paqueteria_admin'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',
+        'Ajustes Paquetería',
+        'Ajustes Paquetería',
+        'manage_options',
+        'paqueteria-settings',
+        'paqueteria_settings_page'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',
+        'Reportes de Incidentes',
+        'Reportes de Incidentes',
+        'manage_options',
+        'incident-reports-admin',
+        'incident_reports_admin_page'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',
+        'Generador de QR',
+        'Generador de QR',
+        'manage_options',
+        'qr-generator-admin',
+        'qr_generator_admin_page'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',
+        'Gestión de Visitantes',
+        'Gestión de Visitantes',
+        'manage_options',
+        'visitor-management-admin',
+        'visitor_management_admin_page'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',
+        'Registro de Usuarios',
+        'Registro de Usuarios',
+        'manage_options',
+        'custom_user_registration',
+        'custom_user_registration_form'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',
+        'Subir CSV',
+        'Subir CSV',
+        'manage_options',
+        'upload_csv_file',
+        'custom_csv_upload_form'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',
+        'Configuración de Domicilios',
+        'Configurar Domicilios',
+        'manage_options',
+        'domicilios',
+        'domicilios_setup_page'
+    );
+
+    // Nuevos menús
+    add_submenu_page(
+        'condo-master-admin',
         'Configuración',
         'Configuración',
         'manage_options',
@@ -37,7 +159,7 @@ function condo_master_admin_menu() {
     );
 
     add_submenu_page(
-        'condo-master',
+        'condo-master-admin',
         'Votaciones',
         'Votaciones',
         'manage_options',
@@ -46,7 +168,7 @@ function condo_master_admin_menu() {
     );
 
     add_submenu_page(
-        'condo-master',
+        'condo-master-admin',
         'Lista Negra',
         'Lista Negra',
         'manage_options',
@@ -55,7 +177,7 @@ function condo_master_admin_menu() {
     );
 
     add_submenu_page(
-        'condo-master',
+        'condo-master-admin',
         'Proveedores',
         'Proveedores',
         'manage_options',
@@ -64,7 +186,7 @@ function condo_master_admin_menu() {
     );
 
     add_submenu_page(
-        'condo-master',
+        'condo-master-admin',
         'Encuestas',
         'Encuestas',
         'manage_options',
@@ -73,7 +195,7 @@ function condo_master_admin_menu() {
     );
 
     add_submenu_page(
-        'condo-master',
+        'condo-master-admin',
         'Ayuda',
         'Ayuda',
         'manage_options',
@@ -81,20 +203,18 @@ function condo_master_admin_menu() {
         'condo_master_ayuda_page'
     );
 }
-add_action('admin_menu', 'condo_master_admin_menu');
+add_action('admin_menu', 'condo_master_menu');
 
 // Función para el contenido de la página principal (Dashboard)
 function condo_master_admin_page() {
     ?>
     <div class="wrap">
-        <h1>Condo Master Dashboard</h1>
-        <p>Bienvenido al panel de administración de Condo Master.</p>
-        <!-- Añadir aquí contenido del dashboard -->
+        <h1>Página de Administración de Condo Master</h1>
     </div>
     <?php
 }
 
-// Función para el contenido de la página de configuración
+// Funciones adicionales para los nuevos menús
 function condo_master_settings_page() {
     ?>
     <div class="wrap">
@@ -108,6 +228,50 @@ function condo_master_settings_page() {
         </form>
     </div>
     <?php
+}
+
+function condo_master_votaciones_page() {
+    ?>
+    <div class="wrap">
+        <h1>Gestión de Votaciones</h1>
+    </div>
+    <?php
+}
+
+function condo_master_lista_negra_page() {
+    ?>
+    <div class="wrap">
+        <h1>Lista Negra</h1>
+    </div>
+    <?php
+}
+
+function condo_master_proveedores_page() {
+    ?>
+    <div class="wrap">
+        <h1>Gestión de Proveedores</h1>
+    </div>
+    <?php
+}
+
+function condo_master_encuestas_page() {
+    ?>
+    <div class="wrap">
+        <h1>Encuestas de Calidad</h1>
+    </div>
+    <?php
+}
+
+function condo_master_ayuda_page() {
+    ?>
+    <div class="wrap">
+        <h1>Ayuda de Condo Master</h1>
+    </div>
+    <?php
+}
+
+function mostrar_pagina_paqueteria_admin() {
+    echo '<h1>Paquetería Admin</h1>';
 }
 
 // Función para registrar configuraciones
@@ -137,53 +301,8 @@ function condo_master_settings_section_callback() {
 function condo_master_text_field_render() {
     $options = get_option('condo_master_option_name');
     ?>
-    <input type="text" name="condo_master_option_name[condo_master_text_field]" value="<?php echo $options['condo_master_text_field'] ?? ''; ?>">
+    <input type="text" name="condo_master_option_name[condo_master_text_field]" value="<?php echo $options['condo_master_text_field']; ?>">
     <?php
 }
+
 add_action('admin_init', 'condo_master_settings_init');
-
-// Funciones para los submenús adicionales
-function condo_master_votaciones_page() {
-    ?>
-    <div class="wrap">
-        <h1>Gestión de Votaciones</h1>
-        <p>Desde aquí podrás crear y gestionar las votaciones.</p>
-    </div>
-    <?php
-}
-
-function condo_master_lista_negra_page() {
-    ?>
-    <div class="wrap">
-        <h1>Lista Negra</h1>
-        <p>Gestión de la lista negra de visitantes y proveedores restringidos.</p>
-    </div>
-    <?php
-}
-
-function condo_master_proveedores_page() {
-    ?>
-    <div class="wrap">
-        <h1>Gestión de Proveedores</h1>
-        <p>Aquí podrás gestionar los proveedores recomendados y suscripciones de anuncios.</p>
-    </div>
-    <?php
-}
-
-function condo_master_encuestas_page() {
-    ?>
-    <div class="wrap">
-        <h1>Encuestas de Calidad</h1>
-        <p>Aquí podrás crear encuestas de satisfacción sobre los servicios del condominio.</p>
-    </div>
-    <?php
-}
-
-function condo_master_ayuda_page() {
-    ?>
-    <div class="wrap">
-        <h1>Ayuda de Condo Master</h1>
-        <p>Esta es la página de ayuda para el plugin Condo Master.</p>
-    </div>
-    <?php
-}
