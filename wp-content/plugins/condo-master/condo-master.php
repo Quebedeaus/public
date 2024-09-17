@@ -32,6 +32,8 @@ function condo_master_enqueue_scripts() {
     if (is_admin()) {
         wp_enqueue_script('domicilios-script', plugin_dir_url(__FILE__) . 'assets/js/domicilios-script.js', array('jquery'), null, true);
         wp_enqueue_script('reservaciones-script', plugin_dir_url(__FILE__) . 'assets/js/reservaciones-script.js', array('jquery'), null, true);
+    
+    
     } else {
         wp_enqueue_script('reservaciones-script', plugin_dir_url(__FILE__) . 'assets/js/js/reservaciones-script.js', array('jquery'), null, true);
         wp_enqueue_style('reservaciones-style', plugin_dir_url(__FILE__) . 'assets/js/css/reservaciones.css');
@@ -110,6 +112,15 @@ function condo_master_menu() {
         'manage_options',
         'qr-generator-admin',
         'qr_generator_admin_page'
+    );
+
+    add_submenu_page(
+        'condo-master-admin',        // Slug del menú principal
+        'Ajuste Cámara',             // Título de la página
+        'Ajuste Cámara',             // Título del submenú
+        'manage_options',            // Capacidad requerida
+        'camera-settings',           // Slug del submenú
+        'render_camera_settings_page'// Función para mostrar el contenido
     );
 
     add_submenu_page(
@@ -306,3 +317,35 @@ function condo_master_text_field_render() {
 }
 
 add_action('admin_init', 'condo_master_settings_init');
+
+// Renderiza la página de Ajuste Cámara
+function render_camera_settings_page() {
+    ?>
+    <div class="wrap">
+        <h1>Ajuste de Cámara</h1>
+        <p>Prueba de script JavaScript.</p>
+        <button id="test-button">Presiona Aquí</button>
+        <div id="color-change" style="width: 100px; height: 100px; background-color: gray; margin-top: 10px;"></div>
+        <div id="message" style="margin-top: 10px;"></div>
+    </div>
+    <?php
+}
+
+
+
+
+
+/// Encolar el script de prueba
+function condo_master_enqueue_test_script($hook) {
+    if ($hook !== 'condo-master-admin_page_camera-settings') {
+        return;
+    }
+    
+    wp_enqueue_script('camera_script', plugins_url('/js/camera_script.js', __FILE__), array('jquery'), '1.0', true);
+    
+    // Verificar que la función se está ejecutando
+    error_log('camera_script.js encolado en camera-settings');
+}
+add_action('admin_enqueue_scripts', 'condo_master_enqueue_test_script');
+
+
